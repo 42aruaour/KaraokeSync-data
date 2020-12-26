@@ -1,0 +1,193 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: H:/Karaoke Mugen - vidéos/medias/JAP - Symphogear Live 2016 - LIVE - BAYONET CHARGE.mp4
+Video File: H:/Karaoke Mugen - vidéos/medias/JAP - Symphogear Live 2016 - LIVE - BAYONET CHARGE.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Scroll Position: 93
+Active Line: 17
+Video Position: 1298
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Tsubasa+Chris,Arial,58,&H00000000,&H00FFFFFF,&H004627FF,&H00FF905C,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,40,1
+Style: Tsubasa L,Arial,58,&H00FFAB83,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,30,10,40,1
+Style: Chris R,Arial,58,&H004627FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,9,10,30,40,1
+Style: Tsubasa,Arial,58,&H00FFAB83,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,40,1
+Style: Chris,Arial,58,&H004627FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,20,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Tsubasa+Chris,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.70,0:00:06.19,Chris,,0,0,0,karaoke,{\k49}mat{\k18}te{\k22}ma{\k9}shi{\k11}ta {\k28}yo {\k35}sen{\k77}pai!
+Comment: 0,0:00:06.77,0:00:08.12,Tsubasa,,0,0,0,karaoke,{\k15}o{\k18}so{\k8}ku{\k15}nat{\k12}ta {\k12}na {\k15}yu{\k13}ki{\k27}ne
+Comment: 0,0:00:08.82,0:00:11.52,Tsubasa,,0,0,0,karaoke,{\k18}do{\k16}re,{\k53} {\k9}fu{\k12}ta{\k11}ri {\k13}de {\k9}hi{\k10}to{\k13}a{\k9}ba{\k10}re {\k12}shi{\k7}te {\k9}ya{\k13}rou {\k14}ja {\k15}nai {\k17}ka?
+Comment: 0,0:00:11.93,0:00:12.96,Chris,,0,0,0,karaoke,{\k20}mo{\k16}chi{\k21}ron {\k46}desu!
+Comment: 0,0:00:24.40,0:00:26.32,Tsubasa,,0,0,0,karaoke,{\k37}a{\k20}i{\k39}sa{\k19}tsu {\k12}na{\k16}do {\k12}mu{\k16}yo{\k21}u
+Comment: 0,0:00:26.51,0:00:28.70,Tsubasa,,0,0,0,karaoke,{\k20}tsu{\k27}ru{\k16}gi {\k26}ma{\k27}u {\k32}zan{\k13}ge {\k14}no {\k18}ji{\k26}kan
+Comment: 0,0:00:28.97,0:00:30.90,Tsubasa,,0,0,0,karaoke,{\k45}ji{\k13}go{\k43}ku {\k12}no {\k16}o{\k13}ku{\k16}so{\k14}ko {\k21}de
+Comment: 0,0:00:31.12,0:00:33.40,Tsubasa,,0,0,0,karaoke,{\k14}e{\k30}n{\k14}ma {\k14}do{\k29}no {\k15}ni {\k12}hi{\k27}re{\k30}fu{\k43}se
+Comment: 0,0:00:33.67,0:00:35.97,Chris,,0,0,0,karaoke,{\k14}hi{\k15}to{\k16}tsu {\k18}me {\k25}wa {\k29}uts' {\k12}fu{\k15}ta{\k14}tsu {\k21}me {\k25}mo {\k26}uts'
+Comment: 0,0:00:36.03,0:00:39.27,Chris,,0,0,0,karaoke,{\k23}mit{\k14}tsu {\k21}yo{\k21}t{\k15}tsu{\k15} {\k29}men{\k14}do{\k15}ku{\k29}see {\k28}ki{\k15}zu{\k85}na
+Comment: 0,0:00:39.81,0:00:42.34,Tsubasa L,,0,0,0,karaoke,{\k20}na{\k23}me{\k31}ru {\k15}de {\k164}nai!
+Comment: 0,0:00:39.81,0:00:42.12,Chris R,,0,0,0,karaoke,{\k20}na{\k23}me{\k31}n {\k15}ja {\k142}nee!
+Comment: 0,0:00:42.68,0:00:44.63,Chris,,0,0,0,karaoke,{\k32}ze{\k13}n{\k27}ryo{\k28}ku {\k29}no {\k16}chi{\k13}ka{\k15}ra {\k22}de
+Comment: 0,0:00:44.94,0:00:46.88,Chris,,0,0,0,karaoke,{\k34}ze{\k11}n{\k31}kai {\k27}de {\k25}tsu{\k19}p{\k14}pa{\k16}shi{\k17}re
+Comment: 0,0:00:47.26,0:00:51.65,Tsubasa,,0,0,0,karaoke,{\k29}o{\k26}so{\k33}re{\k12}ru {\k29}ko{\k16}to {\k16}wa {\k11}i{\k17}ra{\k12}na{\k14}i{\k9} {\k19}ki{\k29}mi {\k28}no {\k21}mi{\k118}chi
+Comment: 0,0:00:51.78,0:00:53.84,Chris,,0,0,0,karaoke,{\k34}fu{\k15}ri{\k28}ka{\k29}e{\k28}ru {\k14}ko{\k14}to {\k14}na{\k30}ku
+Comment: 0,0:00:54.12,0:00:56.12,Chris,,0,0,0,karaoke,{\k24}ma{\k22}e {\k26}da{\k30}ke {\k26}wo {\k15}mi{\k11}te {\k17}yu{\k29}ke
+Comment: 0,0:00:56.37,0:00:57.42,Chris R,,0,0,0,karaoke,{\k33}ka{\k15}na{\k57}raz'
+Comment: 0,0:00:57.34,0:00:58.59,Tsubasa L,,0,0,0,karaoke,{\k18}sa{\k33}sa{\k13}e{\k61}te
+Comment: 0,0:00:58.65,0:01:00.68,Chris R,,0,0,0,karaoke,{\k35}se {\k13}wo {\k41}o{\k31}shi{\k28}te {\k15}ya{\k40}ru
+Comment: 0,0:01:00.85,0:01:02.11,Tsubasa L,,0,0,0,karaoke,{\k36}shi{\k17}n{\k18}ji{\k21}ru {\k20}ko{\k14}to
+Comment: 0,0:01:02.12,0:01:05.69,Tsubasa+Chris,,0,0,0,karaoke,{\k19}a{\k24}ki{\k14}ra{\k20}me{\k23}ru{\k257}na!
+Comment: 0,0:01:07.42,0:01:11.71,Tsubasa+Chris,,0,0,0,karaoke,{\k11}da{\k14}re{\k16}shi{\k30}mo {\k24}mi{\k34}chi {\k13}wo {\k29}e{\k14}ra{\k26}bu {\k17}to{\k27}ki {\k30}ga {\k14}ki{\k130}te
+Comment: 0,0:01:11.99,0:01:13.60,Tsubasa+Chris,,0,0,0,karaoke,{\k12}so{\k16}shi{\k13}te {\k57}ze{\k16}n{\k27}bu {\k20}ga
+Comment: 0,0:01:13.68,0:01:16.47,Chris,,0,0,0,karaoke,{\k17}byo{\k16}u{\k11}do{\k29}u {\k28}tte {\k29}wa{\k14}ke {\k30}ni {\k29}i{\k28}ka{\k13}na{\k15}i {\k20}ga
+Comment: 0,0:01:16.53,0:01:20.38,Tsubasa+Chris,,0,0,0,karaoke,{\k18}ka{\k15}na{\k12}ra{\k29}zu {\k27}ko{\k16}do{\k24}ku {\k34}ja{\k14}na{\k26}i {\k16}tte {\k28}ko{\k29}to {\k15}da{\k82}ke
+Comment: 0,0:01:20.69,0:01:25.18,Tsubasa,,0,0,0,karaoke,{\k26}wa{\k33}su{\k24}re{\k26}zu {\k23}so{\k27}no {\k14}mu{\k15}ne {\k28}ni{\k15} {\k27}yu{\k19}me {\k19}to {\k20}to{\k46}mo {\k87}ni
+Comment: 0,0:01:25.24,0:01:26.32,Chris R,,0,0,0,karaoke,{\k28}yu{\k17}ki {\k30}ni {\k33}mo
+Comment: 0,0:01:26.37,0:01:27.51,Tsubasa L,,0,0,0,karaoke,{\k28}ka{\k24}ze {\k23}ni {\k39}mo
+Comment: 0,0:01:27.54,0:01:28.63,Chris R,,0,0,0,karaoke,{\k29}ha{\k19}na {\k25}ni {\k36}mo
+Comment: 0,0:01:28.69,0:01:29.59,Tsubasa L,,0,0,0,karaoke,{\k29}da{\k21}re {\k22}ni {\k18}mo
+Comment: 0,0:01:29.85,0:01:31.93,Tsubasa+Chris,,0,0,0,karaoke,{\k27}ma{\k30}ke{\k26}nai {\k15}ji{\k14}bu{\k16}n {\k15}no {\k13}i{\k28}ro {\k24}de
+Comment: 0,0:01:31.99,0:01:35.16,Tsubasa+Chris,,0,0,0,karaoke,{\k13}ta{\k14}ta{\k14}ka{\k16}i {\k27}na{\k14}ku {\k16}yu{\k27}u{\k28}ki {\k15}no {\k15}HE{\k27}AR{\k91}T
+Comment: 0,0:01:35.56,0:01:36.84,Tsubasa+Chris,,0,0,0,karaoke,{\k17}hi{\k14}to{\k17}ri {\k9}ni {\k14}wa {\k14}shi{\k43}nai
+Comment: 0,0:01:50.09,0:01:52.02,Tsubasa,,0,0,0,karaoke,{\k43}mi{\k18}ji{\k41}n {\k14}mo {\k16}fu{\k15}re{\k11}sa{\k16}se{\k19}nu
+Comment: 0,0:01:52.27,0:01:54.37,Tsubasa,,0,0,0,karaoke,{\k13}i{\k30}ku{\k14}sa{\k29}ba {\k26}no {\k28}na{\k18}ka{\k14}ma {\k14}ni {\k24}wa
+Comment: 0,0:01:54.68,0:01:56.61,Tsubasa,,0,0,0,karaoke,{\k43}yu{\k18}me {\k39}wo {\k15}ha{\k16}ba{\k14}ta{\k15}ku {\k16}mo{\k17}no
+Comment: 0,0:01:56.81,0:01:59.11,Tsubasa,,0,0,0,karaoke,{\k18}tsu{\k28}ru{\k13}gi {\k16}ni{\k27}te {\k15}i{\k16}za {\k27}ma{\k29}i{\k41}ru
+Comment: 0,0:01:59.42,0:02:01.64,Chris,,0,0,0,karaoke,{\k14}ta{\k27}kai {\k22}dai{\k26}shou {\k14}sa{\k11} {\k24}nan {\k14}o{\k24}ku{\k24}bai {\k22}de
+Comment: 0,0:02:01.70,0:02:04.99,Chris,,0,0,0,karaoke,{\k13}ka{\k16}e{\k13}sha {\k23}i{\k21}i {\k12}ka{\k17} {\k14}tou{\k28}hen{\k15}bo{\k27}ku {\k43}LET'S {\k87}RIDE
+Comment: 0,0:02:05.44,0:02:08.08,Tsubasa L,,0,0,0,karaoke,{\k23}ta{\k24}ta{\k30}ki {\k18}ki{\k169}ru
+Comment: 0,0:02:05.44,0:02:07.83,Chris R,,0,0,0,karaoke,{\k24}bu{\k32}chi{\k28}no{\k13}me{\k142}su
+Comment: 0,0:02:08.36,0:02:10.36,Chris,,0,0,0,karaoke,{\k31}da{\k17}te {\k28}ni {\k28}wa{\k28}ru{\k15}mo{\k13}no {\k20}ka{\k20}ra
+Comment: 0,0:02:10.69,0:02:12.61,Chris,,0,0,0,karaoke,{\k29}a{\k15}ga{\k28}t{\k29}te {\k28}ki{\k14}cha{\k15}i {\k14}ne{\k20}e
+Comment: 0,0:02:12.93,0:02:17.40,Tsubasa,,0,0,0,karaoke,{\k34}ko{\k27}do{\k30}ku {\k14}no {\k28}sa{\k12}bi{\k10}shi{\k19}sa {\k18}tsu{\k12}ra{\k16}sa{\k14} {\k16}wa{\k27}ke{\k29}a{\k30}o{\k111}u
+Comment: 0,0:02:17.48,0:02:19.54,Chris,,0,0,0,karaoke,{\k35}sho{\k14}u{\k29}sho{\k28}u {\k31}bu{\k14}ki{\k15}yo{\k13}u {\k27}de
+Comment: 0,0:02:19.80,0:02:21.82,Chris,,0,0,0,karaoke,{\k32}sen{\k16}da{\k28}tsu {\k31}nya {\k28}to{\k14}o{\k16}i {\k14}ke{\k23}do
+Comment: 0,0:02:22.10,0:02:23.12,Chris R,,0,0,0,karaoke,{\k31}se{\k16}me{\k55}te
+Comment: 0,0:02:23.10,0:02:24.32,Tsubasa L,,0,0,0,karaoke,{\k17}na{\k29}mi{\k14}da {\k62}ga
+Comment: 0,0:02:24.41,0:02:26.41,Chris R,,0,0,0,karaoke,{\k30}ka{\k13}wa{\k41}ku {\k29}ji{\k26}ka{\k20}n {\k41}wo
+Comment: 0,0:02:26.64,0:02:27.82,Tsubasa L,,0,0,0,karaoke,{\k31}su{\k17}go{\k16}shi {\k20}a{\k23}t{\k11}te
+Comment: 0,0:02:27.82,0:02:31.60,Tsubasa+Chris,,0,0,0,karaoke,{\k24}ka{\k17}sa{\k18}bu{\k14}ta {\k29}e {\k276}to
+Comment: 0,0:02:33.08,0:02:37.41,Tsubasa+Chris,,0,0,0,karaoke,{\k17}ya{\k14}ga{\k17}te {\k25}i{\k31}tsu {\k29}no {\k14}hi {\k28}mo {\k17}hi {\k27}ga {\k14}no{\k29}bo{\k29}ru {\k12}ko{\k130}to
+Comment: 0,0:02:37.70,0:02:39.33,Tsubasa+Chris,,0,0,0,karaoke,{\k15}i{\k9}s{\k18}sho {\k54}ni {\k17}ki{\k16}dzu{\k14}i{\k20}te
+Comment: 0,0:02:39.41,0:02:42.10,Chris,,0,0,0,karaoke,{\k16}wa{\k28}rat{\k28}ta {\k29}tte {\k27}be{\k16}tsu {\k29}ni {\k25}ii {\k31}nja {\k13}ne{\k15}e {\k12}ka
+Comment: 0,0:02:42.27,0:02:46.14,Tsubasa+Chris,,0,0,0,karaoke,{\k13}i{\k14}s{\k15}shu{\k30}n {\k27}is{\k15}shu{\k29}n {\k28}wo {\k15}tsu{\k28}mi{\k14}ka{\k29}sa{\k29}ne {\k14}a{\k87}i
+Comment: 0,0:02:46.39,0:02:50.88,Tsubasa,,0,0,0,karaoke,{\k30}to{\k31}mo {\k27}to {\k29}yo{\k16}bi {\k26}a{\k14}u {\k17}hi {\k41}wa {\k27}sou {\k21}to{\k26}o{\k17}ku {\k38}wa {\k89}nai
+Comment: 0,0:02:50.94,0:02:51.96,Chris R,,0,0,0,karaoke,{\k30}tsu{\k18}ki {\k27}ni {\k27}wa
+Comment: 0,0:02:52.12,0:02:53.21,Tsubasa L,,0,0,0,karaoke,{\k29}tai{\k19}you {\k24}ni {\k37}wa
+Comment: 0,0:02:53.23,0:02:54.27,Chris R,,0,0,0,karaoke,{\k30}tsu{\k22}ra{\k23}nu{\k29}ku
+Comment: 0,0:02:54.36,0:02:55.34,Tsubasa L,,0,0,0,karaoke,{\k33}hi{\k21}ka{\k22}ri {\k22}ga
+Comment: 0,0:02:55.55,0:02:57.65,Tsubasa+Chris,,0,0,0,karaoke,{\k28}se{\k30}ip{\k26}pai {\k15}ji{\k15}bu{\k14}n {\k14}no {\k16}i{\k28}ro {\k24}de
+Comment: 0,0:02:57.69,0:03:00.90,Tsubasa+Chris,,0,0,0,karaoke,{\k14}i{\k16}ki{\k10}ru {\k22}ko{\k23}to {\k16}wo {\k14}a{\k27}ki{\k29}ra{\k15}me{\k12}ru{\k28}na {\k95}to
+Comment: 0,0:03:01.35,0:03:02.62,Tsubasa+Chris,,0,0,0,karaoke,{\k14}a{\k15}i{\k19}tsu {\k13}mo {\k14}i{\k13}u {\k39}sa
+Comment: 0,0:03:26.82,0:03:31.20,Tsubasa,,0,0,0,karaoke,{\k26}se{\k18}ou {\k28}ko{\k29}to {\k29}wa {\k16}o{\k22}mo{\k17}ni {\k28}to {\k17}wa {\k27}chi{\k26}ga{\k15}t{\k140}te
+Comment: 0,0:03:31.39,0:03:36.74,Chris,,0,0,0,karaoke,{\k12}i{\k16}tsu{\k16}shi{\k54}ka {\k20}ji{\k28}bu{\k29}n {\k14}wo {\k13}sa{\k14}sa{\k30}e{\k25}ru {\k31}su{\k15}be{\k28}te {\k28}e {\k162}to
+Comment: 0,0:03:35.83,0:03:39.22,Tsubasa L,,0,0,0,karaoke,{\k29}ka{\k29}wa{\k24}ru {\k20}tte {\k27}ko{\k29}to {\k181}ga
+Comment: 0,0:03:38.10,0:03:39.22,Chris R,,0,0,0,karaoke,{\k31}ki{\k30}t{\k51}to
+Comment: 0,0:03:39.52,0:03:42.50,Tsubasa+Chris,,0,0,0,karaoke,{\k18}wa{\k13}ka{\k15}ru {\k29}hi {\k29}ma{\k28}de {\k166}wo!
+Comment: 0,0:03:42.84,0:03:46.98,Tsubasa+Chris,,0,0,0,karaoke,{\k13}da{\k8}re{\k21}shi{\k36}mo {\k19}mi{\k32}chi {\k14}wo {\k29}e{\k14}ra{\k27}bu {\k15}to{\k29}ki {\k28}ga {\k15}ki{\k114}te
+Comment: 0,0:03:47.34,0:03:49.04,Tsubasa+Chris,,0,0,0,karaoke,{\k18}so{\k15}shi{\k13}te {\k61}ze{\k14}n{\k28}bu {\k21}ga
+Comment: 0,0:03:49.12,0:03:51.81,Chris,,0,0,0,karaoke,{\k15}byo{\k14}u{\k13}do{\k30}u {\k28}tte {\k29}wa{\k15}ke {\k25}ni {\k31}i{\k29}ka{\k13}na{\k15}i {\k12}ga
+Comment: 0,0:03:51.94,0:03:55.81,Tsubasa+Chris,,0,0,0,karaoke,{\k18}i{\k13}p{\k15}po {\k30}zu{\k29}tsu {\k17}i{\k24}p{\k28}po {\k13}zu{\k32}tsu {\k14}fu{\k23}mi{\k34}shi{\k11}me{\k86}te
+Comment: 0,0:03:56.12,0:04:00.45,Tsubasa,,0,0,0,karaoke,{\k26}ho{\k32}ko{\k28}re{\k25}ru {\k23}se {\k23}de {\k17}a{\k13}re {\k21}to{\k21} {\k29}u{\k19}e {\k20}wo {\k20}mu{\k40}i{\k76}te
+Comment: 0,0:04:00.69,0:04:01.75,Chris R,,0,0,0,karaoke,{\k28}yu{\k16}ki {\k29}ni {\k33}mo
+Comment: 0,0:04:01.84,0:04:02.94,Tsubasa L,,0,0,0,karaoke,{\k25}ka{\k23}ze {\k23}ni {\k39}mo
+Comment: 0,0:04:02.99,0:04:04.02,Chris R,,0,0,0,karaoke,{\k28}ha{\k18}na {\k24}ni {\k33}mo
+Comment: 0,0:04:04.13,0:04:05.12,Tsubasa L,,0,0,0,karaoke,{\k28}da{\k18}re {\k26}ni {\k27}mo
+Comment: 0,0:04:05.26,0:04:07.38,Tsubasa+Chris,,0,0,0,karaoke,{\k27}ma{\k30}ke{\k28}nai {\k16}ji{\k16}bu{\k12}n {\k15}no {\k15}i{\k27}ro {\k26}de
+Comment: 0,0:04:07.40,0:04:10.58,Tsubasa+Chris,,0,0,0,karaoke,{\k15}ta{\k11}ta{\k15}ka{\k18}i {\k24}na{\k18}ku {\k16}yu{\k24}u{\k31}ki {\k15}no {\k15}HE{\k28}AR{\k88}T
+Comment: 0,0:04:10.99,0:04:12.24,Tsubasa+Chris,,0,0,0,karaoke,{\k17}hi{\k14}to{\k15}ri {\k14}ni {\k11}wa {\k14}shi{\k40}nai
+Dialogue: 0,0:00:02.80,0:00:06.39,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k49}mat{\k18}te{\k22}ma{\k9}shi{\k11}ta {\k28}yo {\k35}sen{\k77}pai!
+Dialogue: 0,0:00:05.87,0:00:08.32,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k18}so{\k8}ku{\k15}nat{\k12}ta {\k12}na {\k15}yu{\k13}ki{\k27}ne
+Dialogue: 0,0:00:07.92,0:00:11.72,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k16}re,{\k53} {\k9}fu{\k12}ta{\k11}ri {\k13}de {\k9}hi{\k10}to{\k13}a{\k9}ba{\k10}re {\k12}shi{\k7}te {\k9}ya{\k13}rou {\k14}ja {\k15}nai {\k17}ka?
+Dialogue: 0,0:00:11.03,0:00:13.16,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mo{\k16}chi{\k21}ron {\k46}desu!
+Dialogue: 0,0:00:23.50,0:00:26.52,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k20}i{\k39}sa{\k19}tsu {\k12}na{\k16}do {\k12}mu{\k16}yo{\k21}u
+Dialogue: 0,0:00:25.61,0:00:28.90,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}tsu{\k27}ru{\k16}gi {\k26}ma{\k27}u {\k32}zan{\k13}ge {\k14}no {\k18}ji{\k26}kan
+Dialogue: 0,0:00:28.07,0:00:31.10,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ji{\k13}go{\k43}ku {\k12}no {\k16}o{\k13}ku{\k16}so{\k14}ko {\k21}de
+Dialogue: 0,0:00:30.22,0:00:33.60,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}e{\k30}n{\k14}ma {\k14}do{\k29}no {\k15}ni {\k12}hi{\k27}re{\k30}fu{\k43}se
+Dialogue: 0,0:00:32.77,0:00:36.17,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k14}hi{\k15}to{\k16}tsu {\k18}me {\k25}wa {\k29}uts' {\k12}fu{\k15}ta{\k14}tsu {\k21}me {\k25}mo {\k26}uts'
+Dialogue: 0,0:00:35.13,0:00:39.47,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mit{\k14}tsu {\k21}yo{\k21}t{\k15}tsu{\k15} {\k29}men{\k14}do{\k15}ku{\k29}see {\k28}ki{\k15}zu{\k85}na
+Dialogue: 0,0:00:38.91,0:00:42.54,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k23}me{\k31}ru {\k15}de {\k164}nai!
+Dialogue: 0,0:00:38.91,0:00:42.32,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k23}me{\k31}n {\k15}ja {\k142}nee!
+Dialogue: 0,0:00:41.78,0:00:44.83,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ze{\k13}n{\k27}ryo{\k28}ku {\k29}no {\k16}chi{\k13}ka{\k15}ra {\k22}de
+Dialogue: 0,0:00:44.04,0:00:47.08,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ze{\k11}n{\k31}kai {\k27}de {\k25}tsu{\k19}p{\k14}pa{\k16}shi{\k17}re
+Dialogue: 0,0:00:46.36,0:00:51.85,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k26}so{\k33}re{\k12}ru {\k29}ko{\k16}to {\k16}wa {\k11}i{\k17}ra{\k12}na{\k14}i{\k9} {\k19}ki{\k29}mi {\k28}no {\k21}mi{\k118}chi
+Dialogue: 0,0:00:50.88,0:00:54.04,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k34}fu{\k15}ri{\k28}ka{\k29}e{\k28}ru {\k14}ko{\k14}to {\k14}na{\k30}ku
+Dialogue: 0,0:00:53.22,0:00:56.32,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ma{\k22}e {\k26}da{\k30}ke {\k26}wo {\k15}mi{\k11}te {\k17}yu{\k29}ke
+Dialogue: 0,0:00:55.47,0:00:57.62,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k15}na{\k57}raz'
+Dialogue: 0,0:00:56.44,0:00:58.79,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k18}sa{\k33}sa{\k13}e{\k61}te
+Dialogue: 0,0:00:57.75,0:01:00.88,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k35}se {\k13}wo {\k41}o{\k31}shi{\k28}te {\k15}ya{\k40}ru
+Dialogue: 0,0:00:59.95,0:01:02.31,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k36}shi{\k17}n{\k18}ji{\k21}ru {\k20}ko{\k14}to
+Dialogue: 0,0:01:01.22,0:01:05.89,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k24}ki{\k14}ra{\k20}me{\k23}ru{\k257}na!
+Dialogue: 0,0:01:06.52,0:01:11.91,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k11}da{\k14}re{\k16}shi{\k30}mo {\k24}mi{\k34}chi {\k13}wo {\k29}e{\k14}ra{\k26}bu {\k17}to{\k27}ki {\k30}ga {\k14}ki{\k130}te
+Dialogue: 0,0:01:11.09,0:01:13.80,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k12}so{\k16}shi{\k13}te {\k57}ze{\k16}n{\k27}bu {\k20}ga
+Dialogue: 0,0:01:12.78,0:01:16.67,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}byo{\k16}u{\k11}do{\k29}u {\k28}tte {\k29}wa{\k14}ke {\k30}ni {\k29}i{\k28}ka{\k13}na{\k15}i {\k20}ga
+Dialogue: 0,0:01:15.63,0:01:20.58,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k15}na{\k12}ra{\k29}zu {\k27}ko{\k16}do{\k24}ku {\k34}ja{\k14}na{\k26}i {\k16}tte {\k28}ko{\k29}to {\k15}da{\k82}ke
+Dialogue: 0,0:01:19.79,0:01:25.38,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k33}su{\k24}re{\k26}zu {\k23}so{\k27}no {\k14}mu{\k15}ne {\k28}ni{\k15} {\k27}yu{\k19}me {\k19}to {\k20}to{\k46}mo {\k87}ni
+Dialogue: 0,0:01:24.34,0:01:26.52,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yu{\k17}ki {\k30}ni {\k33}mo
+Dialogue: 0,0:01:25.47,0:01:27.71,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ka{\k24}ze {\k23}ni {\k39}mo
+Dialogue: 0,0:01:26.64,0:01:28.83,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ha{\k19}na {\k25}ni {\k36}mo
+Dialogue: 0,0:01:27.79,0:01:29.79,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k29}da{\k21}re {\k22}ni {\k18}mo
+Dialogue: 0,0:01:28.95,0:01:32.13,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k30}ke{\k26}nai {\k15}ji{\k14}bu{\k16}n {\k15}no {\k13}i{\k28}ro {\k24}de
+Dialogue: 0,0:01:31.09,0:01:35.36,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k14}ta{\k14}ka{\k16}i {\k27}na{\k14}ku {\k16}yu{\k27}u{\k28}ki {\k15}no {\k15}HE{\k27}AR{\k91}T
+Dialogue: 0,0:01:34.66,0:01:37.04,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k14}to{\k17}ri {\k9}ni {\k14}wa {\k14}shi{\k43}nai
+Dialogue: 0,0:01:49.19,0:01:52.22,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k43}mi{\k18}ji{\k41}n {\k14}mo {\k16}fu{\k15}re{\k11}sa{\k16}se{\k19}nu
+Dialogue: 0,0:01:51.37,0:01:54.57,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k30}ku{\k14}sa{\k29}ba {\k26}no {\k28}na{\k18}ka{\k14}ma {\k14}ni {\k24}wa
+Dialogue: 0,0:01:53.78,0:01:56.81,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k43}yu{\k18}me {\k39}wo {\k15}ha{\k16}ba{\k14}ta{\k15}ku {\k16}mo{\k17}no
+Dialogue: 0,0:01:55.91,0:01:59.31,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k28}ru{\k13}gi {\k16}ni{\k27}te {\k15}i{\k16}za {\k27}ma{\k29}i{\k41}ru
+Dialogue: 0,0:01:58.52,0:02:01.84,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k27}kai {\k22}dai{\k26}shou {\k14}sa{\k11} {\k24}nan {\k14}o{\k24}ku{\k24}bai {\k22}de
+Dialogue: 0,0:02:00.80,0:02:05.19,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k16}e{\k13}sha {\k23}i{\k21}i {\k12}ka{\k17} {\k14}tou{\k28}hen{\k15}bo{\k27}ku {\k43}LET'S {\k87}RIDE
+Dialogue: 0,0:02:04.54,0:02:08.28,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ta{\k24}ta{\k30}ki {\k18}ki{\k169}ru
+Dialogue: 0,0:02:04.54,0:02:08.03,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k24}bu{\k32}chi{\k28}no{\k13}me{\k142}su
+Dialogue: 0,0:02:07.46,0:02:10.56,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k31}da{\k17}te {\k28}ni {\k28}wa{\k28}ru{\k15}mo{\k13}no {\k20}ka{\k20}ra
+Dialogue: 0,0:02:09.79,0:02:12.81,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k15}ga{\k28}t{\k29}te {\k28}ki{\k14}cha{\k15}i {\k14}ne{\k20}e
+Dialogue: 0,0:02:12.03,0:02:17.60,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k27}do{\k30}ku {\k14}no {\k28}sa{\k12}bi{\k10}shi{\k19}sa {\k18}tsu{\k12}ra{\k16}sa{\k14} {\k16}wa{\k27}ke{\k29}a{\k30}o{\k111}u
+Dialogue: 0,0:02:16.58,0:02:19.74,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k35}sho{\k14}u{\k29}sho{\k28}u {\k31}bu{\k14}ki{\k15}yo{\k13}u {\k27}de
+Dialogue: 0,0:02:18.90,0:02:22.02,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sen{\k16}da{\k28}tsu {\k31}nya {\k28}to{\k14}o{\k16}i {\k14}ke{\k23}do
+Dialogue: 0,0:02:21.20,0:02:23.32,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k31}se{\k16}me{\k55}te
+Dialogue: 0,0:02:22.20,0:02:24.52,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k29}mi{\k14}da {\k62}ga
+Dialogue: 0,0:02:23.51,0:02:26.61,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ka{\k13}wa{\k41}ku {\k29}ji{\k26}ka{\k20}n {\k41}wo
+Dialogue: 0,0:02:25.74,0:02:28.02,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k31}su{\k17}go{\k16}shi {\k20}a{\k23}t{\k11}te
+Dialogue: 0,0:02:26.92,0:02:31.80,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k17}sa{\k18}bu{\k14}ta {\k29}e {\k276}to
+Dialogue: 0,0:02:32.18,0:02:37.61,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ya{\k14}ga{\k17}te {\k25}i{\k31}tsu {\k29}no {\k14}hi {\k28}mo {\k17}hi {\k27}ga {\k14}no{\k29}bo{\k29}ru {\k12}ko{\k130}to
+Dialogue: 0,0:02:36.80,0:02:39.53,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k9}s{\k18}sho {\k54}ni {\k17}ki{\k16}dzu{\k14}i{\k20}te
+Dialogue: 0,0:02:38.51,0:02:42.30,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k28}rat{\k28}ta {\k29}tte {\k27}be{\k16}tsu {\k29}ni {\k25}ii {\k31}nja {\k13}ne{\k15}e {\k12}ka
+Dialogue: 0,0:02:41.37,0:02:46.34,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k14}s{\k15}shu{\k30}n {\k27}is{\k15}shu{\k29}n {\k28}wo {\k15}tsu{\k28}mi{\k14}ka{\k29}sa{\k29}ne {\k14}a{\k87}i
+Dialogue: 0,0:02:45.49,0:02:51.08,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k30}to{\k31}mo {\k27}to {\k29}yo{\k16}bi {\k26}a{\k14}u {\k17}hi {\k41}wa {\k27}sou {\k21}to{\k26}o{\k17}ku {\k38}wa {\k89}nai
+Dialogue: 0,0:02:50.04,0:02:52.16,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tsu{\k18}ki {\k27}ni {\k27}wa
+Dialogue: 0,0:02:51.22,0:02:53.41,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tai{\k19}you {\k24}ni {\k37}wa
+Dialogue: 0,0:02:52.33,0:02:54.47,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tsu{\k22}ra{\k23}nu{\k29}ku
+Dialogue: 0,0:02:53.46,0:02:55.54,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k33}hi{\k21}ka{\k22}ri {\k22}ga
+Dialogue: 0,0:02:54.65,0:02:57.85,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k28}se{\k30}ip{\k26}pai {\k15}ji{\k15}bu{\k14}n {\k14}no {\k16}i{\k28}ro {\k24}de
+Dialogue: 0,0:02:56.79,0:03:01.10,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k14}i{\k16}ki{\k10}ru {\k22}ko{\k23}to {\k16}wo {\k14}a{\k27}ki{\k29}ra{\k15}me{\k12}ru{\k28}na {\k95}to
+Dialogue: 0,0:03:00.45,0:03:02.82,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k15}i{\k19}tsu {\k13}mo {\k14}i{\k13}u {\k39}sa
+Dialogue: 0,0:03:25.92,0:03:31.40,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k26}se{\k18}ou {\k28}ko{\k29}to {\k29}wa {\k16}o{\k22}mo{\k17}ni {\k28}to {\k17}wa {\k27}chi{\k26}ga{\k15}t{\k140}te
+Dialogue: 0,0:03:30.49,0:03:36.94,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k16}tsu{\k16}shi{\k54}ka {\k20}ji{\k28}bu{\k29}n {\k14}wo {\k13}sa{\k14}sa{\k30}e{\k25}ru {\k31}su{\k15}be{\k28}te {\k28}e {\k162}to
+Dialogue: 0,0:03:34.93,0:03:39.42,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ka{\k29}wa{\k24}ru {\k20}tte {\k27}ko{\k29}to {\k181}ga
+Dialogue: 0,0:03:37.20,0:03:39.42,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ki{\k30}t{\k51}to
+Dialogue: 0,0:03:38.62,0:03:42.70,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k13}ka{\k15}ru {\k29}hi {\k29}ma{\k28}de {\k166}wo!
+Dialogue: 0,0:03:41.94,0:03:47.18,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k8}re{\k21}shi{\k36}mo {\k19}mi{\k32}chi {\k14}wo {\k29}e{\k14}ra{\k27}bu {\k15}to{\k29}ki {\k28}ga {\k15}ki{\k114}te
+Dialogue: 0,0:03:46.44,0:03:49.24,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k15}shi{\k13}te {\k61}ze{\k14}n{\k28}bu {\k21}ga
+Dialogue: 0,0:03:48.22,0:03:52.01,Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k15}byo{\k14}u{\k13}do{\k30}u {\k28}tte {\k29}wa{\k15}ke {\k25}ni {\k31}i{\k29}ka{\k13}na{\k15}i {\k12}ga
+Dialogue: 0,0:03:51.04,0:03:56.01,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k13}p{\k15}po {\k30}zu{\k29}tsu {\k17}i{\k24}p{\k28}po {\k13}zu{\k32}tsu {\k14}fu{\k23}mi{\k34}shi{\k11}me{\k86}te
+Dialogue: 0,0:03:55.22,0:04:00.65,Tsubasa,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ho{\k32}ko{\k28}re{\k25}ru {\k23}se {\k23}de {\k17}a{\k13}re {\k21}to{\k21} {\k29}u{\k19}e {\k20}wo {\k20}mu{\k40}i{\k76}te
+Dialogue: 0,0:03:59.79,0:04:01.95,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yu{\k16}ki {\k29}ni {\k33}mo
+Dialogue: 0,0:04:00.94,0:04:03.14,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k23}ze {\k23}ni {\k39}mo
+Dialogue: 0,0:04:02.09,0:04:04.22,Chris R,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k18}na {\k24}ni {\k33}mo
+Dialogue: 0,0:04:03.23,0:04:05.32,Tsubasa L,,0,0,0,fx,{\k90\fad(300,200)}{\k28}da{\k18}re {\k26}ni {\k27}mo
+Dialogue: 0,0:04:04.36,0:04:07.58,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k30}ke{\k28}nai {\k16}ji{\k16}bu{\k12}n {\k15}no {\k15}i{\k27}ro {\k26}de
+Dialogue: 0,0:04:06.50,0:04:10.78,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k11}ta{\k15}ka{\k18}i {\k24}na{\k18}ku {\k16}yu{\k24}u{\k31}ki {\k15}no {\k15}HE{\k28}AR{\k88}T
+Dialogue: 0,0:04:10.09,0:04:12.44,Tsubasa+Chris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k14}to{\k15}ri {\k14}ni {\k11}wa {\k14}shi{\k40}nai

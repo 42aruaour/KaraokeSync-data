@@ -1,0 +1,104 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: H:/Karaoke Mugen - vidéos/medias/JAP - Love Live! Sunshine!! - IN - SELF CONTROL!!.mp4
+Video File: H:/Karaoke Mugen - vidéos/medias/JAP - Love Live! Sunshine!! - IN - SELF CONTROL!!.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Scroll Position: 24
+Active Line: 31
+Video Position: 1640
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Saint Snow,Arial,58,&H00A2B10F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,20,20,40,1
+Style: Kazuno Leah,Arial,58,&H00B060AB,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,20,20,40,1
+Style: Kazuno Sarah,Arial,58,&H00DE817D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,20,20,40,1
+Style: Go!,Arial,58,&H002EC7E8,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,20,20,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Saint Snow,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.25,0:00:09.29,Kazuno Sarah,,0,0,0,karaoke,{\k36}sai{\k26}kou {\k15}da {\k32}to {\k9}i{\k11}wa{\k13}re{\k23}tai {\k44}yo {\k31}shin{\k24}ken {\k17}da {\k23}yo
+Comment: 0,0:00:09.29,0:00:10.16,Saint Snow,,0,0,95,karaoke,{\k12}WE {\k13}GOT{\k12}TA {\k50}GO!
+Comment: 0,0:00:10.16,0:00:10.41,Go!,,0,720,540,karaoke,{\k25}GO!
+Comment: 0,0:00:10.65,0:00:10.91,Go!,,0,480,540,karaoke,{\k26}GO!
+Comment: 0,0:00:11.18,0:00:11.66,Go!,,0,240,540,karaoke,{\k48}GO!
+Comment: 0,0:00:11.66,0:00:12.16,Go!,,0,0,540,karaoke,{\k50}GO!
+Comment: 0,0:00:12.16,0:00:12.66,Go!,,240,0,540,karaoke,{\k50}GO!
+Comment: 0,0:00:12.66,0:00:13.17,Go!,,480,0,540,karaoke,{\k51}GO!
+Comment: 0,0:00:13.17,0:00:13.67,Go!,,720,0,540,karaoke,{\k50}GO!
+Comment: 0,0:00:22.43,0:00:26.19,Kazuno Sarah,,0,0,0,karaoke,{\k23}yu{\k26}me {\k15}wa {\k33}yu{\k26}me {\k25}de{\k23}mo {\k51}kan{\k23}tan {\k15}ni {\k37}to{\k24}do{\k24}ka{\k31}nai
+Comment: 0,0:00:26.41,0:00:30.19,Kazuno Sarah,,0,0,95,karaoke,{\k24}to{\k25}ku{\k11}be{\k39}tsu {\k26}na {\k26}mo{\k24}no {\k23}me{\k16}za{\k34}so{\k13}u {\k40}ja{\k24}na{\k24}i {\k29}ka
+Comment: 0,0:00:30.33,0:00:33.89,Kazuno Sarah,,0,0,0,karaoke,{\k34}so{\k25}no {\k12}ta{\k37}me {\k23}da{\k27}ka{\k24}ra {\k31}na{\k20}i{\k25}ta{\k7}ri {\k44}shi{\k24}na{\k23}i
+Comment: 0,0:00:33.89,0:00:38.15,Saint Snow,,0,0,95,karaoke,{\k24}te{\k52}ki {\k26}wa {\k13}da{\k46}re?{\k40} {\k23}te{\k28}ki {\k20}wa {\k29}yo{\k15}wa{\k26}i {\k36}ji{\k20}bun {\k28}no
+Comment: 0,0:00:38.15,0:00:39.64,Kazuno Sarah,,0,0,0,karaoke,{\k78}ka{\k13}ge {\k58}sa
+Comment: 0,0:00:38.15,0:00:45.94,Kazuno Leah,,0,0,540,karaoke,{\k148}ka{\k39}ge {\k161}sa…{\k55} {\k86}da{\k113}me {\k89}nan{\k88}da!
+Comment: 0,0:00:39.65,0:00:41.62,Kazuno Sarah,,0,0,95,karaoke,{\k25}wa{\k29}ka{\k73}ru {\k15}de{\k55}shou?
+Comment: 0,0:00:41.66,0:00:45.73,Kazuno Sarah,,0,0,0,karaoke,{\k24}yo{\k26}wa{\k48}i {\k27}ko{\k13}ko{\k42}ro {\k21}ja {\k24}da{\k25}me {\k25}nan{\k15}da {\k117}to
+Comment: 0,0:00:45.91,0:00:46.94,Kazuno Sarah,,0,280,95,karaoke,{\k23}kan{\k27}ji{\k17}yo{\k36}u
+Comment: 0,0:00:46.79,0:00:47.45,Kazuno Leah,,280,0,95,karaoke,{\k36}shik{\k14}ka{\k16}ri
+Comment: 0,0:00:47.66,0:00:51.14,Saint Snow,,0,0,0,karaoke,{\k24}i{\k26}ma {\k50}tat{\k50}te{\k50}ru {\k34}ba{\k114}sho
+Comment: 0,0:00:51.28,0:00:53.50,Saint Snow,,0,0,95,karaoke,{\k38}SELF {\k25}CON{\k159}TROL!!
+Comment: 0,0:00:53.50,0:00:56.16,Kazuno Sarah,,0,0,0,karaoke,{\k65}sai{\k201}kou!
+Comment: 0,0:00:54.41,0:00:56.15,Kazuno Leah,,0,0,540,karaoke,{\k25}ONE {\k46}MORE {\k33}CHANCE {\k70}TIME!
+Comment: 0,0:00:56.41,0:00:59.66,Kazuno Sarah,,0,0,95,karaoke,{\k25}i{\k26}wa{\k12}re{\k37}ta{\k25}i {\k26}mi{\k25}n{\k25}na {\k49}ni {\k75}ne
+Comment: 0,0:00:58.30,0:01:00.41,Kazuno Leah,,0,0,540,karaoke,{\k36}sai{\k26}kou {\k12}da {\k29}to {\k9}i{\k14}wa{\k10}re{\k25}tai {\k50}yo
+Comment: 0,0:01:00.41,0:01:01.70,Kazuno Leah,,0,0,540,karaoke,{\k31}DANCE {\k43}NOW! {\k36}DANCE {\k19}NOW!
+Comment: 0,0:01:01.54,0:01:04.20,Kazuno Sarah,,0,0,0,karaoke,{\k62}sai{\k204}kou!
+Comment: 0,0:01:02.36,0:01:04.14,Kazuno Leah,,0,0,540,karaoke,{\k31}ONE {\k47}MORE {\k32}CHANCE {\k68}TIME!
+Comment: 0,0:01:04.42,0:01:07.65,Kazuno Sarah,,0,0,95,karaoke,{\k24}i{\k18}wa{\k20}se{\k37}ru {\k25}tte {\k26}ki{\k25}me{\k28}tan{\k47}da {\k73}yo
+Comment: 0,0:01:06.33,0:01:08.16,Kazuno Leah,,0,0,540,karaoke,{\k34}shin{\k24}ken {\k11}da {\k33}yo {\k10}a{\k8}so{\k13}bi {\k12}ja{\k38}nai
+Comment: 0,0:01:08.40,0:01:09.90,Kazuno Leah,,0,0,540,karaoke,{\k34}DANCE {\k43}NOW! {\k31}DANCE {\k42}NOW!
+Comment: 0,0:01:10.14,0:01:12.18,Kazuno Sarah,,0,0,0,karaoke,{\k15}to{\k12}o{\k11}ku {\k13}no {\k14}hi{\k13}ka{\k13}ri {\k19}he {\k24}mot{\k18}to {\k26}BA{\k26}BY!
+Comment: 0,0:01:12.18,0:01:14.24,Kazuno Leah,,0,0,95,karaoke,{\k12}is{\k24}sho {\k13}ni {\k13}to{\k12}bi{\k9}ta{\k20}i {\k24}mot{\k21}to {\k26}BA{\k32}BY!
+Comment: 0,0:01:14.16,0:01:16.16,Kazuno Sarah,,0,0,0,karaoke,{\k10}fu{\k17}ru{\k14}e{\k9}ru {\k13}yu{\k5}bi{\k11}sa{\k27}ki {\k32}shit{\k13}te{\k24}te {\k25}mo
+Comment: 0,0:01:16.16,0:01:18.17,Saint Snow,,0,0,95,karaoke,{\k50}mi{\k50}na{\k37}i{\k64}de
+Comment: 0,0:01:18.92,0:01:21.03,Saint Snow,,0,0,0,karaoke,{\k25}ta{\k22}i{\k23}se{\k29}tsu {\k14}na {\k36}no {\k62}wa
+Comment: 0,0:01:21.03,0:01:22.67,Saint Snow,,0,0,95,karaoke,{\k41}SELF {\k37}CON{\k86}TROL!!
+Dialogue: 0,0:00:05.35,0:00:09.49,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k36}sai{\k26}kou {\k15}da {\k32}to {\k9}i{\k11}wa{\k13}re{\k23}tai {\k44}yo {\k31}shin{\k24}ken {\k17}da {\k23}yo
+Dialogue: 0,0:00:08.39,0:00:10.36,Saint Snow,,0,0,95,fx,{\k90\fad(300,200)}{\k12}WE {\k13}GOT{\k12}TA {\k50}GO!
+Dialogue: 0,0:00:09.26,0:00:10.61,Go!,,0,720,540,fx,{\k90\fad(300,200)}{\k25}GO!
+Dialogue: 0,0:00:09.75,0:00:11.11,Go!,,0,480,540,fx,{\k90\fad(300,200)}{\k26}GO!
+Dialogue: 0,0:00:10.28,0:00:11.86,Go!,,0,240,540,fx,{\k90\fad(300,200)}{\k48}GO!
+Dialogue: 0,0:00:10.76,0:00:12.36,Go!,,0,0,540,fx,{\k90\fad(300,200)}{\k50}GO!
+Dialogue: 0,0:00:11.26,0:00:12.86,Go!,,240,0,540,fx,{\k90\fad(300,200)}{\k50}GO!
+Dialogue: 0,0:00:11.76,0:00:13.37,Go!,,480,0,540,fx,{\k90\fad(300,200)}{\k51}GO!
+Dialogue: 0,0:00:12.27,0:00:13.87,Go!,,720,0,540,fx,{\k90\fad(300,200)}{\k50}GO!
+Dialogue: 0,0:00:21.53,0:00:26.39,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k23}yu{\k26}me {\k15}wa {\k33}yu{\k26}me {\k25}de{\k23}mo {\k51}kan{\k23}tan {\k15}ni {\k37}to{\k24}do{\k24}ka{\k31}nai
+Dialogue: 0,0:00:25.51,0:00:30.39,Kazuno Sarah,,0,0,95,fx,{\k90\fad(300,200)}{\k24}to{\k25}ku{\k11}be{\k39}tsu {\k26}na {\k26}mo{\k24}no {\k23}me{\k16}za{\k34}so{\k13}u {\k40}ja{\k24}na{\k24}i {\k29}ka
+Dialogue: 0,0:00:29.43,0:00:34.09,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k34}so{\k25}no {\k12}ta{\k37}me {\k23}da{\k27}ka{\k24}ra {\k31}na{\k20}i{\k25}ta{\k7}ri {\k44}shi{\k24}na{\k23}i
+Dialogue: 0,0:00:32.99,0:00:38.35,Saint Snow,,0,0,95,fx,{\k90\fad(300,200)}{\k24}te{\k52}ki {\k26}wa {\k13}da{\k46}re?{\k40} {\k23}te{\k28}ki {\k20}wa {\k29}yo{\k15}wa{\k26}i {\k36}ji{\k20}bun {\k28}no
+Dialogue: 0,0:00:37.25,0:00:39.84,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ka{\k13}ge {\k58}sa
+Dialogue: 0,0:00:37.25,0:00:46.14,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k148}ka{\k39}ge {\k161}sa…{\k55} {\k86}da{\k113}me {\k89}nan{\k88}da!
+Dialogue: 0,0:00:38.75,0:00:41.82,Kazuno Sarah,,0,0,95,fx,{\k90\fad(300,200)}{\k25}wa{\k29}ka{\k73}ru {\k15}de{\k55}shou?
+Dialogue: 0,0:00:40.76,0:00:45.93,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k24}yo{\k26}wa{\k48}i {\k27}ko{\k13}ko{\k42}ro {\k21}ja {\k24}da{\k25}me {\k25}nan{\k15}da {\k117}to
+Dialogue: 0,0:00:45.01,0:00:47.14,Kazuno Sarah,,0,280,95,fx,{\k90\fad(300,200)}{\k23}kan{\k27}ji{\k17}yo{\k36}u
+Dialogue: 0,0:00:45.89,0:00:47.65,Kazuno Leah,,280,0,95,fx,{\k90\fad(300,200)}{\k36}shik{\k14}ka{\k16}ri
+Dialogue: 0,0:00:46.76,0:00:51.34,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k26}ma {\k50}tat{\k50}te{\k50}ru {\k34}ba{\k114}sho
+Dialogue: 0,0:00:50.38,0:00:53.70,Saint Snow,,0,0,95,fx,{\k90\fad(300,200)}{\k38}SELF {\k25}CON{\k159}TROL!!
+Dialogue: 0,0:00:52.60,0:00:56.36,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k65}sai{\k201}kou!
+Dialogue: 0,0:00:53.51,0:00:56.35,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k25}ONE {\k46}MORE {\k33}CHANCE {\k70}TIME!
+Dialogue: 0,0:00:55.51,0:00:59.86,Kazuno Sarah,,0,0,95,fx,{\k90\fad(300,200)}{\k25}i{\k26}wa{\k12}re{\k37}ta{\k25}i {\k26}mi{\k25}n{\k25}na {\k49}ni {\k75}ne
+Dialogue: 0,0:00:57.40,0:01:00.61,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k36}sai{\k26}kou {\k12}da {\k29}to {\k9}i{\k14}wa{\k10}re{\k25}tai {\k50}yo
+Dialogue: 0,0:00:59.51,0:01:01.90,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k31}DANCE {\k43}NOW! {\k36}DANCE {\k19}NOW!
+Dialogue: 0,0:01:00.64,0:01:04.40,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k62}sai{\k204}kou!
+Dialogue: 0,0:01:01.46,0:01:04.34,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k31}ONE {\k47}MORE {\k32}CHANCE {\k68}TIME!
+Dialogue: 0,0:01:03.52,0:01:07.85,Kazuno Sarah,,0,0,95,fx,{\k90\fad(300,200)}{\k24}i{\k18}wa{\k20}se{\k37}ru {\k25}tte {\k26}ki{\k25}me{\k28}tan{\k47}da {\k73}yo
+Dialogue: 0,0:01:05.43,0:01:08.36,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k34}shin{\k24}ken {\k11}da {\k33}yo {\k10}a{\k8}so{\k13}bi {\k12}ja{\k38}nai
+Dialogue: 0,0:01:07.50,0:01:10.10,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k34}DANCE {\k43}NOW! {\k31}DANCE {\k42}NOW!
+Dialogue: 0,0:01:09.24,0:01:12.38,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k15}to{\k12}o{\k11}ku {\k13}no {\k14}hi{\k13}ka{\k13}ri {\k19}he {\k24}mot{\k18}to {\k26}BA{\k26}BY!
+Dialogue: 0,0:01:11.28,0:01:14.44,Kazuno Leah,,0,0,95,fx,{\k90\fad(300,200)}{\k12}is{\k24}sho {\k13}ni {\k13}to{\k12}bi{\k9}ta{\k20}i {\k24}mot{\k21}to {\k26}BA{\k32}BY!
+Dialogue: 0,0:01:13.26,0:01:16.36,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k10}fu{\k17}ru{\k14}e{\k9}ru {\k13}yu{\k5}bi{\k11}sa{\k27}ki {\k32}shit{\k13}te{\k24}te {\k25}mo
+Dialogue: 0,0:01:15.26,0:01:18.37,Saint Snow,,0,0,95,fx,{\k90\fad(300,200)}{\k50}mi{\k50}na{\k37}i{\k64}de
+Dialogue: 0,0:01:18.02,0:01:21.23,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k22}i{\k23}se{\k29}tsu {\k14}na {\k36}no {\k62}wa
+Dialogue: 0,0:01:20.13,0:01:22.87,Saint Snow,,0,0,95,fx,{\k90\fad(300,200)}{\k41}SELF {\k37}CON{\k86}TROL!!
