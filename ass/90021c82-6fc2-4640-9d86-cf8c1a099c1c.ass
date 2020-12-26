@@ -1,0 +1,152 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: H:/Karaoke Mugen - vidéos/medias/JAP - Love Live! Sunshine!! 2nd Season - IN - Awaken the power.mp4
+Video File: H:/Karaoke Mugen - vidéos/medias/JAP - Love Live! Sunshine!! 2nd Season - IN - Awaken the power.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.750000
+Active Line: 4
+Video Position: 4037
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,53,&H00FFFF05,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Aqours,Arial,53,&H00CF9A21,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Saint Snow,Arial,53,&H008CAD0A,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Kazuno Leah,Arial,53,&H00AD53A5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Kazuno Sarah,Arial,53,&H00C1686E,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Kurosawa Ruby,Arial,53,&H00AF71FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Kurosawa Dia,Arial,53,&H004242FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Takami Chika,Arial,53,&H00267DFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: KR/KL,Arial,53,&H008888FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: KU/TS,Arial,53,&H003FD2E0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: TA/KS,Arial,53,&H007373B7,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: KR/KU/TS/KL,Arial,62,&H0035E5AA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+Style: Kazuno Leah (Big),Arial,62,&H00AD53A5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.25,0:00:18.74,Kazuno Leah,,0,0,0,karaoke,{\k34}ha{\k21}ji{\k53}ma{\k42}ru {\k28}to{\k31}ki {\k39}wa {\k51}o{\k40}wa{\k19}ri {\k49}no {\k32}ko{\k49}to {\k20}na{\k41}do
+Comment: 0,0:00:19.24,0:00:25.23,Kazuno Leah,,0,0,85,karaoke,{\k27}kan{\k26}ga{\k48}e{\k44}te{\k39}na{\k26}i {\k44}ka{\k38}ra {\k41}zu{\k27}t{\k239}to
+Comment: 0,0:00:25.23,0:00:31.09,Kurosawa Ruby,,0,0,0,karaoke,{\k37}tsu{\k24}zu{\k53}ku {\k36}ki {\k30}ga {\k27}shi{\k55}te {\k40}ma{\k39}e {\k16}da{\k43}ke {\k41}mi{\k49}tsu{\k21}me{\k75}te
+Comment: 0,0:00:31.26,0:00:37.14,Kurosawa Ruby,,0,0,85,karaoke,{\k28}ha{\k30}shi{\k41}ri {\k51}tsu{\k38}zu{\k18}ke{\k51}te {\k43}ki{\k33}ta {\k24}ka{\k231}ra
+Comment: 0,0:00:37.23,0:00:40.24,Kazuno Leah,,0,0,540,karaoke,{\k86}do{\k51}ko {\k164}he
+Comment: 0,0:00:40.24,0:00:42.86,Kurosawa Ruby,,0,0,540,karaoke,{\k90}do{\k43}ko {\k129}he
+Comment: 0,0:00:43.01,0:00:49.27,KR/KL,,0,0,0,karaoke,{\k21}tsu{\k112}gi {\k24}wa {\k36}do{\k38}ko {\k32}he {\k38}i{\k325}kou?
+Comment: 0,0:01:05.78,0:01:06.31,Kazuno Leah,,0,0,0,karaoke,{\k24}COME {\k29}ON!
+Comment: 0,0:01:06.62,0:01:09.15,Kazuno Leah,,0,0,85,karaoke,{\k24}A{\k26}WA{\k25}KEN {\k18}THE {\k18}PO{\k28}WER {\k114}YEAH!
+Comment: 0,0:01:09.15,0:01:10.38,Kazuno Leah,,0,0,150,karaoke,{\k17}ARE {\k14}YOU {\k19}REA{\k73}DY?
+Comment: 0,0:01:10.64,0:01:11.61,KR/KL,,0,0,540,karaoke,{\k39}LET'S {\k58}GO!
+Comment: 0,0:01:11.36,0:01:16.12,Kazuno Sarah,,0,0,0,karaoke,{\k30}ko{\k17}to{\k41}bat{\k33}te {\k28}i{\k22}ku{\k49}tsu {\k22}mo {\k37}shit{\k19}te{\k45}ru {\k30}ha{\k36}zu {\k17}de{\k50}mo
+Comment: 0,0:01:16.40,0:01:19.94,Kazuno Sarah,,0,0,85,karaoke,{\k29}kon{\k19}na {\k44}to{\k32}ki {\k31}de{\k18}te {\k48}ko{\k30}na{\k34}in {\k17}da {\k52}ne
+Comment: 0,0:01:21.44,0:01:26.25,Kurosawa Dia,,0,0,0,karaoke,{\k33}o{\k17}mo{\k36}i {\k37}no {\k32}tsu{\k17}yo{\k48}sa {\k34}de {\k31}mu{\k17}ne {\k39}ga {\k39}ip{\k33}pa{\k17}i {\k51}de
+Comment: 0,0:01:26.52,0:01:30.32,Kurosawa Dia,,0,0,85,karaoke,{\k13}ko{\k16}e {\k16}ni {\k48}na{\k31}ru {\k23}ma{\k15}e {\k12}ni {\k38}na{\k33}ki{\k38}sou {\k19}da{\k78}yo
+Comment: 0,0:01:31.88,0:01:34.37,Aqours,,0,0,0,karaoke,{\k31}gan{\k19}ba{\k28}rut{\k27}te {\k36}ki{\k32}me{\k33}ta{\k43}ra
+Comment: 0,0:01:34.37,0:01:36.19,Saint Snow,,0,0,85,karaoke,{\k35}zet{\k32}tai{\k16} {\k30}ma{\k16}ke {\k24}nai{\k29}nda
+Comment: 0,0:01:36.92,0:01:39.35,Aqours,,0,0,0,karaoke,{\k23}is{\k27}sho {\k29}ni {\k33}gan{\k30}bat{\k29}te {\k33}ki{\k39}ta
+Comment: 0,0:01:39.36,0:01:41.19,Saint Snow,,0,0,85,karaoke,{\k39}zet{\k34}tai{\k14} {\k32}ma{\k18}ke {\k29}nai{\k28}nda
+Comment: 0,0:01:41.19,0:01:46.24,KU/TS,,0,0,0,karaoke,{\k16}de{\k18}ki{\k69}nai {\k50}nan{\k47}te {\k27}ya{\k12}n{\k29}na{\k29}kya {\k35}wa{\k16}ka{\k26}ra{\k35}nai {\k96}ne
+Comment: 0,0:01:46.53,0:01:47.73,Takami Chika,,0,0,85,karaoke,{\k35}ji{\k14}bu{\k19}n {\k14}no {\k17}na{\k29}ka{\k521}
+Comment: 0,0:01:47.78,0:01:49.09,Kazuno Sarah,,0,0,150,karaoke,{\k35}me{\k17}za{\k17}me{\k12}ru {\k18}no {\k32}wa{\k0}
+Comment: 0,0:01:49.09,0:01:51.26,TA/KS,,0,0,0,karaoke,{\k93}a{\k14}ta{\k11}ra{\k99}shii
+Comment: 0,0:01:51.26,0:01:53.02,All,,0,0,85,karaoke,{\k19}chi{\k17}ka{\k140}ra
+Comment: 0,0:01:47.82,0:01:48.15,Kazuno Leah (Big),,0,0,540,karaoke,{\k33}GO!
+Comment: 0,0:01:49.06,0:01:50.00,Kazuno Leah (Big),,0,0,540,karaoke,{\k94}GO!
+Comment: 0,0:01:50.79,0:01:51.92,Kazuno Leah,,0,0,540,karaoke,{\k32}MY {\k33}PO{\k48}WER
+Comment: 0,0:01:51.92,0:01:54.15,Kazuno Leah,,0,0,540,karaoke,{\k45}NEW {\k24}PO{\k42}WER {\k112}YEAH!
+Comment: 0,0:01:53.02,0:01:59.15,All,,0,0,0,karaoke,{\k19}se{\k28}kai {\k31}wa {\k31}kit{\k114}to {\k28}shi{\k18}ra{\k31}nai {\k32}po{\k33}wer {\k109}de {\k32}ka{\k17}ga{\k18}ya{\k13}i{\k15}te{\k44}ru
+Comment: 0,0:01:54.61,0:01:54.95,KR/KU/TS/KL,,0,220,120,karaoke,{\k34}hai!
+Comment: 0,0:01:54.95,0:01:55.26,KR/KU/TS/KL,,0,0,120,karaoke,{\k31}hai!
+Comment: 0,0:01:55.26,0:01:55.55,KR/KU/TS/KL,,220,0,120,karaoke,{\k29}hai!
+Comment: 0,0:01:57.15,0:01:57.45,KR/KU/TS/KL,,0,220,120,karaoke,{\k30}hai!
+Comment: 0,0:01:57.45,0:01:57.76,KR/KU/TS/KL,,0,0,120,karaoke,{\k31}hai!
+Comment: 0,0:01:57.76,0:01:58.04,KR/KU/TS/KL,,220,0,120,karaoke,{\k32}hai!
+Comment: 0,0:01:59.15,0:02:03.14,All,,0,0,85,karaoke,{\k51}da{\k14}ka{\k33}ra {\k19}i{\k14}tsu{\k31}ma{\k32}de{\k36}mo {\k27}yu{\k47}me {\k16}no {\k30}to{\k51}chuu
+Comment: 0,0:02:03.16,0:02:09.29,All,,0,0,0,karaoke,{\k14}se{\k31}kai {\k32}wa {\k31}kit{\k110}to {\k33}shi{\k15}ra{\k32}nai {\k32}po{\k30}wer {\k126}de {\k13}ka{\k16}ga{\k20}ya{\k15}i{\k31}te{\k32}ru
+Comment: 0,0:02:04.72,0:02:05.04,KR/KU/TS/KL,,0,220,120,karaoke,{\k32}hai!
+Comment: 0,0:02:05.04,0:02:05.36,KR/KU/TS/KL,,0,0,120,karaoke,{\k32}hai!
+Comment: 0,0:02:05.36,0:02:05.66,KR/KU/TS/KL,,220,0,120,karaoke,{\k30}hai!
+Comment: 0,0:02:07.24,0:02:07.57,KR/KU/TS/KL,,0,220,120,karaoke,{\k33}hai!
+Comment: 0,0:02:07.57,0:02:07.89,KR/KU/TS/KL,,0,0,120,karaoke,{\k32}hai!
+Comment: 0,0:02:07.89,0:02:08.17,KR/KU/TS/KL,,220,0,120,karaoke,{\k28}hai!
+Comment: 0,0:02:09.29,0:02:13.21,All,,0,0,85,karaoke,{\k41}na{\k23}ni {\k30}wo {\k16}e{\k48}ra{\k32}bu {\k44}ka {\k20}ji{\k38}bun {\k25}shi{\k19}dai {\k56}sa
+Comment: 0,0:02:13.21,0:02:15.41,All,,0,0,540,karaoke,{\k21}WAKE {\k14}UP {\k17}MY {\k32}NEW {\k30}PO{\k106}WER
+Comment: 0,0:02:14.71,0:02:19.56,All,,0,0,0,karaoke,{\k42}ne{\k17}mu{\k12}ru {\k18}chi{\k24}ka{\k39}ra {\k33}ga {\k31}u{\k32}go{\k25}ki {\k38}ha{\k16}ji{\k16}me{\k142}ru
+Comment: 0,0:02:18.60,0:02:20.67,All,,0,0,540,karaoke,{\k67}START {\k28}UP {\k112}NOW
+Comment: 0,0:02:19.88,0:02:22.94,All,,0,0,85,karaoke,{\k29}jit{\k8}to {\k25}shi{\k18}te{\k30}nai{\k34}de {\k28}ik{\k18}ou {\k116}yo!
+Comment: 0,0:02:23.18,0:02:28.43,All,,0,0,0,karaoke,{\k31}do{\k16}ko {\k15}he {\k17}do{\k18}ko {\k28}he {\k32}do{\k19}ko {\k15}he {\k30}ik{\k30}ou {\k274}ka
+Comment: 0,0:02:28.43,0:02:32.37,All,,0,0,85,karaoke,{\k122}MY {\k52}PO{\k220}WER
+Comment: 0,0:02:32.37,0:02:36.41,All,,0,0,0,karaoke,{\k125}NEW {\k53}PO{\k226}WER
+Comment: 0,0:02:36.41,0:02:43.86,All,,0,0,85,karaoke,{\k119}ko{\k52}ko{\k51}ro {\k51}no {\k47}o{\k35}ku{\k89}so{\k29}ko {\k272}de
+Comment: 0,0:02:44.28,0:02:48.20,All,,0,0,0,karaoke,{\k131}MY {\k54}PO{\k207}WER
+Comment: 0,0:02:48.39,0:02:52.14,All,,0,0,85,karaoke,{\k120}NEW {\k53}PO{\k202}WER
+Comment: 0,0:02:52.14,0:03:01.39,All,,0,0,0,karaoke,{\k26}a{\k122}ta{\k35}ra{\k55}shii {\k58}se{\k43}kai {\k59}sa{\k59}ga{\k20}shi{\k27}te{\k421}ru
+Comment: 0,0:02:57.80,0:03:01.41,All,,0,0,540,karaoke,{\k57}WAKE {\k157}UP {\k52}WAKE {\k95}UP
+Comment: 0,0:03:01.41,0:03:04.89,All,,0,0,540,karaoke,{\k49}MY {\k48}NEW {\k251}WORLD
+Dialogue: 0,0:00:12.35,0:00:18.94,Kazuno Leah,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k21}ji{\k53}ma{\k42}ru {\k28}to{\k31}ki {\k39}wa {\k51}o{\k40}wa{\k19}ri {\k49}no {\k32}ko{\k49}to {\k20}na{\k41}do
+Dialogue: 0,0:00:18.34,0:00:25.43,Kazuno Leah,,0,0,85,fx,{\k90\fad(300,200)}{\k27}kan{\k26}ga{\k48}e{\k44}te{\k39}na{\k26}i {\k44}ka{\k38}ra {\k41}zu{\k27}t{\k239}to
+Dialogue: 0,0:00:24.33,0:00:31.29,Kurosawa Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\k37}tsu{\k24}zu{\k53}ku {\k36}ki {\k30}ga {\k27}shi{\k55}te {\k40}ma{\k39}e {\k16}da{\k43}ke {\k41}mi{\k49}tsu{\k21}me{\k75}te
+Dialogue: 0,0:00:30.36,0:00:37.34,Kurosawa Ruby,,0,0,85,fx,{\k90\fad(300,200)}{\k28}ha{\k30}shi{\k41}ri {\k51}tsu{\k38}zu{\k18}ke{\k51}te {\k43}ki{\k33}ta {\k24}ka{\k231}ra
+Dialogue: 0,0:00:36.33,0:00:40.44,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k86}do{\k51}ko {\k164}he
+Dialogue: 0,0:00:39.34,0:00:43.06,Kurosawa Ruby,,0,0,540,fx,{\k90\fad(300,200)}{\k90}do{\k43}ko {\k129}he
+Dialogue: 0,0:00:42.11,0:00:49.47,KR/KL,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tsu{\k112}gi {\k24}wa {\k36}do{\k38}ko {\k32}he {\k38}i{\k325}kou?
+Dialogue: 0,0:01:04.88,0:01:06.51,Kazuno Leah,,0,0,0,fx,{\k90\fad(300,200)}{\k24}COME {\k29}ON!
+Dialogue: 0,0:01:05.72,0:01:09.35,Kazuno Leah,,0,0,85,fx,{\k90\fad(300,200)}{\k24}A{\k26}WA{\k25}KEN {\k18}THE {\k18}PO{\k28}WER {\k114}YEAH!
+Dialogue: 0,0:01:08.25,0:01:10.58,Kazuno Leah,,0,0,150,fx,{\k90\fad(300,200)}{\k17}ARE {\k14}YOU {\k19}REA{\k73}DY?
+Dialogue: 0,0:01:09.74,0:01:11.81,KR/KL,,0,0,540,fx,{\k90\fad(300,200)}{\k39}LET'S {\k58}GO!
+Dialogue: 0,0:01:10.46,0:01:16.32,Kazuno Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k17}to{\k41}bat{\k33}te {\k28}i{\k22}ku{\k49}tsu {\k22}mo {\k37}shit{\k19}te{\k45}ru {\k30}ha{\k36}zu {\k17}de{\k50}mo
+Dialogue: 0,0:01:15.50,0:01:20.14,Kazuno Sarah,,0,0,85,fx,{\k90\fad(300,200)}{\k29}kon{\k19}na {\k44}to{\k32}ki {\k31}de{\k18}te {\k48}ko{\k30}na{\k34}in {\k17}da {\k52}ne
+Dialogue: 0,0:01:20.54,0:01:26.45,Kurosawa Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k33}o{\k17}mo{\k36}i {\k37}no {\k32}tsu{\k17}yo{\k48}sa {\k34}de {\k31}mu{\k17}ne {\k39}ga {\k39}ip{\k33}pa{\k17}i {\k51}de
+Dialogue: 0,0:01:25.62,0:01:30.52,Kurosawa Dia,,0,0,85,fx,{\k90\fad(300,200)}{\k13}ko{\k16}e {\k16}ni {\k48}na{\k31}ru {\k23}ma{\k15}e {\k12}ni {\k38}na{\k33}ki{\k38}sou {\k19}da{\k78}yo
+Dialogue: 0,0:01:30.98,0:01:34.57,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k31}gan{\k19}ba{\k28}rut{\k27}te {\k36}ki{\k32}me{\k33}ta{\k43}ra
+Dialogue: 0,0:01:33.47,0:01:36.39,Saint Snow,,0,0,85,fx,{\k90\fad(300,200)}{\k35}zet{\k32}tai{\k16} {\k30}ma{\k16}ke {\k24}nai{\k29}nda
+Dialogue: 0,0:01:36.02,0:01:39.55,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}is{\k27}sho {\k29}ni {\k33}gan{\k30}bat{\k29}te {\k33}ki{\k39}ta
+Dialogue: 0,0:01:38.46,0:01:41.39,Saint Snow,,0,0,85,fx,{\k90\fad(300,200)}{\k39}zet{\k34}tai{\k14} {\k32}ma{\k18}ke {\k29}nai{\k28}nda
+Dialogue: 0,0:01:40.29,0:01:46.44,KU/TS,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k18}ki{\k69}nai {\k50}nan{\k47}te {\k27}ya{\k12}n{\k29}na{\k29}kya {\k35}wa{\k16}ka{\k26}ra{\k35}nai {\k96}ne
+Dialogue: 0,0:01:45.63,0:01:47.93,Takami Chika,,0,0,85,fx,{\k90\fad(300,200)}{\k35}ji{\k14}bu{\k19}n {\k14}no {\k17}na{\k29}ka{\k521}
+Dialogue: 0,0:01:46.88,0:01:49.29,Kazuno Sarah,,0,0,150,fx,{\k90\fad(300,200)}{\k35}me{\k17}za{\k17}me{\k12}ru {\k18}no {\k32}wa{\k0}
+Dialogue: 0,0:01:48.19,0:01:51.46,TA/KS,,0,0,0,fx,{\k90\fad(300,200)}{\k93}a{\k14}ta{\k11}ra{\k99}shii
+Dialogue: 0,0:01:50.36,0:01:53.22,All,,0,0,85,fx,{\k90\fad(300,200)}{\k19}chi{\k17}ka{\k140}ra
+Dialogue: 0,0:01:46.92,0:01:48.35,Kazuno Leah (Big),,0,0,540,fx,{\k90\fad(300,200)}{\k33}GO!
+Dialogue: 0,0:01:48.16,0:01:50.20,Kazuno Leah (Big),,0,0,540,fx,{\k90\fad(300,200)}{\k94}GO!
+Dialogue: 0,0:01:49.89,0:01:52.12,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k32}MY {\k33}PO{\k48}WER
+Dialogue: 0,0:01:51.02,0:01:54.35,Kazuno Leah,,0,0,540,fx,{\k90\fad(300,200)}{\k45}NEW {\k24}PO{\k42}WER {\k112}YEAH!
+Dialogue: 0,0:01:52.12,0:01:59.35,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k28}kai {\k31}wa {\k31}kit{\k114}to {\k28}shi{\k18}ra{\k31}nai {\k32}po{\k33}wer {\k109}de {\k32}ka{\k17}ga{\k18}ya{\k13}i{\k15}te{\k44}ru
+Dialogue: 0,0:01:53.71,0:01:55.15,KR/KU/TS/KL,,0,220,120,fx,{\k90\fad(300,200)}{\k34}hai!
+Dialogue: 0,0:01:54.05,0:01:55.46,KR/KU/TS/KL,,0,0,120,fx,{\k90\fad(300,200)}{\k31}hai!
+Dialogue: 0,0:01:54.36,0:01:55.75,KR/KU/TS/KL,,220,0,120,fx,{\k90\fad(300,200)}{\k29}hai!
+Dialogue: 0,0:01:56.25,0:01:57.65,KR/KU/TS/KL,,0,220,120,fx,{\k90\fad(300,200)}{\k30}hai!
+Dialogue: 0,0:01:56.55,0:01:57.96,KR/KU/TS/KL,,0,0,120,fx,{\k90\fad(300,200)}{\k31}hai!
+Dialogue: 0,0:01:56.86,0:01:58.24,KR/KU/TS/KL,,220,0,120,fx,{\k90\fad(300,200)}{\k32}hai!
+Dialogue: 0,0:01:58.25,0:02:03.34,All,,0,0,85,fx,{\k90\fad(300,200)}{\k51}da{\k14}ka{\k33}ra {\k19}i{\k14}tsu{\k31}ma{\k32}de{\k36}mo {\k27}yu{\k47}me {\k16}no {\k30}to{\k51}chuu
+Dialogue: 0,0:02:02.26,0:02:09.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}se{\k31}kai {\k32}wa {\k31}kit{\k110}to {\k33}shi{\k15}ra{\k32}nai {\k32}po{\k30}wer {\k126}de {\k13}ka{\k16}ga{\k20}ya{\k15}i{\k31}te{\k32}ru
+Dialogue: 0,0:02:03.82,0:02:05.24,KR/KU/TS/KL,,0,220,120,fx,{\k90\fad(300,200)}{\k32}hai!
+Dialogue: 0,0:02:04.14,0:02:05.56,KR/KU/TS/KL,,0,0,120,fx,{\k90\fad(300,200)}{\k32}hai!
+Dialogue: 0,0:02:04.46,0:02:05.86,KR/KU/TS/KL,,220,0,120,fx,{\k90\fad(300,200)}{\k30}hai!
+Dialogue: 0,0:02:06.34,0:02:07.77,KR/KU/TS/KL,,0,220,120,fx,{\k90\fad(300,200)}{\k33}hai!
+Dialogue: 0,0:02:06.67,0:02:08.09,KR/KU/TS/KL,,0,0,120,fx,{\k90\fad(300,200)}{\k32}hai!
+Dialogue: 0,0:02:06.99,0:02:08.37,KR/KU/TS/KL,,220,0,120,fx,{\k90\fad(300,200)}{\k28}hai!
+Dialogue: 0,0:02:08.39,0:02:13.41,All,,0,0,85,fx,{\k90\fad(300,200)}{\k41}na{\k23}ni {\k30}wo {\k16}e{\k48}ra{\k32}bu {\k44}ka {\k20}ji{\k38}bun {\k25}shi{\k19}dai {\k56}sa
+Dialogue: 0,0:02:12.31,0:02:15.61,All,,0,0,540,fx,{\k90\fad(300,200)}{\k21}WAKE {\k14}UP {\k17}MY {\k32}NEW {\k30}PO{\k106}WER
+Dialogue: 0,0:02:13.81,0:02:19.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ne{\k17}mu{\k12}ru {\k18}chi{\k24}ka{\k39}ra {\k33}ga {\k31}u{\k32}go{\k25}ki {\k38}ha{\k16}ji{\k16}me{\k142}ru
+Dialogue: 0,0:02:17.70,0:02:20.87,All,,0,0,540,fx,{\k90\fad(300,200)}{\k67}START {\k28}UP {\k112}NOW
+Dialogue: 0,0:02:18.98,0:02:23.14,All,,0,0,85,fx,{\k90\fad(300,200)}{\k29}jit{\k8}to {\k25}shi{\k18}te{\k30}nai{\k34}de {\k28}ik{\k18}ou {\k116}yo!
+Dialogue: 0,0:02:22.28,0:02:28.63,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}do{\k16}ko {\k15}he {\k17}do{\k18}ko {\k28}he {\k32}do{\k19}ko {\k15}he {\k30}ik{\k30}ou {\k274}ka
+Dialogue: 0,0:02:27.53,0:02:32.57,All,,0,0,85,fx,{\k90\fad(300,200)}{\k122}MY {\k52}PO{\k220}WER
+Dialogue: 0,0:02:31.47,0:02:36.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k125}NEW {\k53}PO{\k226}WER
+Dialogue: 0,0:02:35.51,0:02:44.06,All,,0,0,85,fx,{\k90\fad(300,200)}{\k119}ko{\k52}ko{\k51}ro {\k51}no {\k47}o{\k35}ku{\k89}so{\k29}ko {\k272}de
+Dialogue: 0,0:02:43.38,0:02:48.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k131}MY {\k54}PO{\k207}WER
+Dialogue: 0,0:02:47.49,0:02:52.34,All,,0,0,85,fx,{\k90\fad(300,200)}{\k120}NEW {\k53}PO{\k202}WER
+Dialogue: 0,0:02:51.24,0:03:01.59,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k122}ta{\k35}ra{\k55}shii {\k58}se{\k43}kai {\k59}sa{\k59}ga{\k20}shi{\k27}te{\k421}ru
+Dialogue: 0,0:02:56.90,0:03:01.61,All,,0,0,540,fx,{\k90\fad(300,200)}{\k57}WAKE {\k157}UP {\k52}WAKE {\k95}UP
+Dialogue: 0,0:03:00.51,0:03:05.09,All,,0,0,540,fx,{\k90\fad(300,200)}{\k49}MY {\k48}NEW {\k251}WORLD

@@ -1,0 +1,84 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: H:/Karaoke Mugen - vidéos/medias/JAP - Symphogear Live 2016 - LIVE - Edge Works of Goddess ZABABA.mp4
+Video File: H:/Karaoke Mugen - vidéos/medias/JAP - Symphogear Live 2016 - LIVE - Edge Works of Goddess ZABABA.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Active Line: 27
+Video Position: 1862
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shirabe,Arial,58,&H009900EA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,40,1
+Style: Kirika+Shirabe,Arial,58,&H00000000,&H00FFFFFF,&H009900EA,&H0009CA00,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,40,1
+Style: Kirika R,Arial,58,&H000AE700,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,9,10,20,40,1
+Style: Shirabe L,Arial,58,&H009900EA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,20,10,40,1
+Style: Kirika,Arial,58,&H000AE700,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,20,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Shirabe,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:22.82,0:00:25.73,Kirika,,0,0,0,karaoke,{\k21}kei{\k19}ko{\k20}ku {\k19}ME{\k9}LO{\k27}D{\k39}Y {\k20}shi{\k19}ni{\k19}ga{\k19}mi {\k8}wo {\k21}yo{\k31}bu
+Comment: 0,0:00:25.88,0:00:28.69,Kirika,,0,0,0,karaoke,{\k17}ze{\k23}tsu{\k19}bo{\k19}u {\k6}no {\k32}yu{\k17}me {\k27}DEA{\k29}TH {\k23}THI{\k39}R{\k30}TEEN
+Comment: 0,0:00:28.94,0:00:31.81,Kirika,,0,0,0,karaoke,{\k21}RE{\k18}QU{\k17}I{\k19}E{\k11}M {\k29}yo{\k20}ri{\k18} {\k21}ei{\k19}ri {\k15}na {\k22}E{\k7}LE{\k23}G{\k27}Y
+Comment: 0,0:00:31.82,0:00:34.69,Kirika,,0,0,0,karaoke,{\k29}kyo{\k22}u{\k22}fu {\k36}e {\k34}yo{\k59}u{\k26}ko{\k59}so
+Comment: 0,0:00:35.06,0:00:37.93,Shirabe,,0,0,0,karaoke,{\k23}D{\k15}{\k24}N{\k15}{\k38}A {\k19}wo{\k18} {\k20}kyo{\k20}u {\k18}i{\k20}ku {\k10}shi{\k27}te{\k20}ku
+Comment: 0,0:00:37.93,0:00:40.93,Shirabe,,0,0,0,karaoke,{\k26}ER{\k32}ROR {\k18}ma{\k39}ji{\k38}ri {\k31}no {\k27}RE{\k19}A{\k37}LI{\k33}SM
+Comment: 0,0:00:41.18,0:00:44.04,Shirabe,,0,0,0,karaoke,{\k19}ni{\k20}n{\k19}gyo{\k19}u {\k10}no {\k29}you {\k18}ni{\k19} {\k17}o{\k22}ji{\k17}gi {\k21}su{\k9}ru {\k20}da{\k27}ke
+Comment: 0,0:00:44.05,0:00:46.81,Shirabe,,0,0,0,karaoke,{\k32}MO{\k25}NO{\k19}CH{\k39}ROME {\k38}no {\k28}ro{\k28}u{\k18}go{\k49}ku
+Comment: 0,0:00:47.07,0:00:48.64,Kirika R,,0,0,0,karaoke,{\k16}i{\k14}ma {\k10}su{\k13}gu {\k13}ni {\k13}JUST {\k41}SAW {\k37}NOW
+Comment: 0,0:00:48.64,0:00:49.57,Kirika R,,0,0,0,karaoke,{\k12}i{\k12}ta{\k11}mu {\k15}ma{\k10}mo{\k14}na{\k19}ku
+Comment: 0,0:00:47.07,0:00:48.60,Shirabe L,,0,0,0,karaoke,{\k40}da{\k24}ka{\k18}ra {\k35}son{\k36}na
+Comment: 0,0:00:48.60,0:00:49.55,Shirabe L,,0,0,0,karaoke,{\k39}se{\k26}ka{\k14}i {\k15}wa
+Comment: 0,0:00:49.78,0:00:53.21,Kirika+Shirabe,,0,0,0,karaoke,{\k23}ki{\k12}ri{\k32}ki{\k30}zan{\k19}de {\k37}a{\k21}ge{\k14}ma{\k155}shou
+Comment: 0,0:00:54.46,0:01:00.48,Kirika R,,0,0,0,karaoke,{\k24}shin{\k139}ji{\k20}at{\k127}te {\k10}tsu{\k14}na{\k38}ga{\k31}ru {\k41}shi{\k25}n {\k16}no {\k36}tsu{\k25}yo{\k13}sa {\k43}wo
+Comment: 0,0:01:00.86,0:01:03.16,Kirika+Shirabe,,0,0,0,karaoke,{\k48}yuu{\k8}ki {\k14}to {\k45}shi{\k30}n{\k33}ji{\k12}te{\k40}ku{\k38}
+Comment: 0,0:01:03.48,0:01:06.48,Kirika R,,0,0,0,karaoke,{\k44}so{\k27}u{\k47} {\k38}tsu{\k22}mu{\k19}gu {\k103}te
+Comment: 0,0:00:54.70,0:00:58.19,Shirabe L,,0,0,0,karaoke,{\k34}da{\k27}re{\k21}ka {\k25}wo {\k32}ma{\k18}mo{\k39}ru {\k39}ta{\k38}me {\k36}ni {\k44}mo
+Comment: 0,0:00:58.51,0:01:00.48,Shirabe L,,0,0,0,karaoke,{\k37}shi{\k26}n {\k18}no {\k35}tsu{\k24}yo{\k9}sa {\k48}wo
+Comment: 0,0:01:03.48,0:01:06.73,Shirabe L,,0,0,0,karaoke,{\k44}so{\k27}u {\k30}yu{\k17}me {\k38}tsu{\k22}mu{\k19}gu {\k77}TA{\k51}LES
+Comment: 0,0:01:06.78,0:01:09.47,Kirika R,,0,0,0,karaoke,{\k20}kit{\k96}to{\k38} {\k19}kit{\k95}to
+Comment: 0,0:01:09.80,0:01:13.09,Kirika R,,0,0,0,karaoke,{\k23}ma{\k43}da{\k33} {\k26}dai{\k32}jou{\k20}bu {\k38}ma{\k37}da {\k32}to{\k26}be{\k19}ru
+Comment: 0,0:01:13.27,0:01:16.05,Kirika R,,0,0,0,karaoke,{\k19}ka{\k21}ga{\k19}ya{\k34}i{\k43}ta{\k17} {\k21}ki{\k18}zu{\k20}na {\k38}da {\k28}yo
+Comment: 0,0:01:16.15,0:01:22.10,Kirika R,,0,0,0,karaoke,{\k46}saa{\k30} {\k27}so{\k30}ra {\k16}ni {\k34}shi{\k27}ra{\k20}be {\k28}u{\k30}ta{\k17}o{\k290}u
+Comment: 0,0:01:06.97,0:01:10.46,Shirabe L,,0,0,0,karaoke,{\k20}wa{\k34}su{\k11}re{\k11}ka{\k21}ke{\k38}ta {\k19}e{\k38}ga{\k39}o {\k39}da{\k35}ke{\k44}do
+Comment: 0,0:01:10.78,0:01:13.76,Shirabe L,,0,0,0,karaoke,{\k28}dai{\k31}jou{\k19}bu {\k39}ma{\k37}da {\k33}to{\k26}be{\k19}ru {\k66}yo
+Comment: 0,0:01:14.04,0:01:17.32,Shirabe L,,0,0,0,karaoke,{\k25}ka{\k14}ga{\k20}ya{\k76}ku{\k19} {\k19}ki{\k19}zu{\k19}na {\k28}da{\k20}ki{\k25}shi{\k44}me
+Comment: 0,0:01:17.65,0:01:22.17,Shirabe L,,0,0,0,karaoke,{\k34}shi{\k27}ra{\k19}be {\k28}u{\k29}ta{\k18}o{\k297}u
+Dialogue: 0,0:00:21.92,0:00:25.93,Kirika,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kei{\k19}ko{\k20}ku {\k19}ME{\k9}LO{\k27}D{\k39}Y {\k20}shi{\k19}ni{\k19}ga{\k19}mi {\k8}wo {\k21}yo{\k31}bu
+Dialogue: 0,0:00:24.98,0:00:28.89,Kirika,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ze{\k23}tsu{\k19}bo{\k19}u {\k6}no {\k32}yu{\k17}me {\k27}DEA{\k29}TH {\k23}THI{\k39}R{\k30}TEEN
+Dialogue: 0,0:00:28.04,0:00:32.01,Kirika,,0,0,0,fx,{\k90\fad(300,200)}{\k21}RE{\k18}QU{\k17}I{\k19}E{\k11}M {\k29}yo{\k20}ri{\k18} {\k21}ei{\k19}ri {\k15}na {\k22}E{\k7}LE{\k23}G{\k27}Y
+Dialogue: 0,0:00:30.92,0:00:34.89,Kirika,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kyo{\k22}u{\k22}fu {\k36}e {\k34}yo{\k59}u{\k26}ko{\k59}so
+Dialogue: 0,0:00:34.16,0:00:38.13,Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k23}D{\k15}{\k24}N{\k15}{\k38}A {\k19}wo{\k18} {\k20}kyo{\k20}u {\k18}i{\k20}ku {\k10}shi{\k27}te{\k20}ku
+Dialogue: 0,0:00:37.03,0:00:41.13,Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ER{\k32}ROR {\k18}ma{\k39}ji{\k38}ri {\k31}no {\k27}RE{\k19}A{\k37}LI{\k33}SM
+Dialogue: 0,0:00:40.28,0:00:44.24,Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ni{\k20}n{\k19}gyo{\k19}u {\k10}no {\k29}you {\k18}ni{\k19} {\k17}o{\k22}ji{\k17}gi {\k21}su{\k9}ru {\k20}da{\k27}ke
+Dialogue: 0,0:00:43.15,0:00:47.01,Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k32}MO{\k25}NO{\k19}CH{\k39}ROME {\k38}no {\k28}ro{\k28}u{\k18}go{\k49}ku
+Dialogue: 0,0:00:46.17,0:00:48.84,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k14}ma {\k10}su{\k13}gu {\k13}ni {\k13}JUST {\k41}SAW {\k37}NOW
+Dialogue: 0,0:00:47.74,0:00:49.77,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k12}ta{\k11}mu {\k15}ma{\k10}mo{\k14}na{\k19}ku
+Dialogue: 0,0:00:46.17,0:00:48.80,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k40}da{\k24}ka{\k18}ra {\k35}son{\k36}na
+Dialogue: 0,0:00:47.70,0:00:49.75,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k39}se{\k26}ka{\k14}i {\k15}wa
+Dialogue: 0,0:00:48.88,0:00:53.41,Kirika+Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k12}ri{\k32}ki{\k30}zan{\k19}de {\k37}a{\k21}ge{\k14}ma{\k155}shou
+Dialogue: 0,0:00:53.56,0:01:00.68,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k24}shin{\k139}ji{\k20}at{\k127}te {\k10}tsu{\k14}na{\k38}ga{\k31}ru {\k41}shi{\k25}n {\k16}no {\k36}tsu{\k25}yo{\k13}sa {\k43}wo
+Dialogue: 0,0:00:59.96,0:01:03.36,Kirika+Shirabe,,0,0,0,fx,{\k90\fad(300,200)}{\k48}yuu{\k8}ki {\k14}to {\k45}shi{\k30}n{\k33}ji{\k12}te{\k40}ku{\k38}
+Dialogue: 0,0:01:02.58,0:01:06.68,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k44}so{\k27}u{\k47} {\k38}tsu{\k22}mu{\k19}gu {\k103}te
+Dialogue: 0,0:00:53.80,0:00:58.39,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k34}da{\k27}re{\k21}ka {\k25}wo {\k32}ma{\k18}mo{\k39}ru {\k39}ta{\k38}me {\k36}ni {\k44}mo
+Dialogue: 0,0:00:57.61,0:01:00.68,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k37}shi{\k26}n {\k18}no {\k35}tsu{\k24}yo{\k9}sa {\k48}wo
+Dialogue: 0,0:01:02.58,0:01:06.93,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k44}so{\k27}u {\k30}yu{\k17}me {\k38}tsu{\k22}mu{\k19}gu {\k77}TA{\k51}LES
+Dialogue: 0,0:01:05.88,0:01:09.67,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k20}kit{\k96}to{\k38} {\k19}kit{\k95}to
+Dialogue: 0,0:01:08.90,0:01:13.29,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k43}da{\k33} {\k26}dai{\k32}jou{\k20}bu {\k38}ma{\k37}da {\k32}to{\k26}be{\k19}ru
+Dialogue: 0,0:01:12.37,0:01:16.25,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k21}ga{\k19}ya{\k34}i{\k43}ta{\k17} {\k21}ki{\k18}zu{\k20}na {\k38}da {\k28}yo
+Dialogue: 0,0:01:15.25,0:01:22.30,Kirika R,,0,0,0,fx,{\k90\fad(300,200)}{\k46}saa{\k30} {\k27}so{\k30}ra {\k16}ni {\k34}shi{\k27}ra{\k20}be {\k28}u{\k30}ta{\k17}o{\k290}u
+Dialogue: 0,0:01:06.07,0:01:10.66,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k34}su{\k11}re{\k11}ka{\k21}ke{\k38}ta {\k19}e{\k38}ga{\k39}o {\k39}da{\k35}ke{\k44}do
+Dialogue: 0,0:01:09.88,0:01:13.96,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k28}dai{\k31}jou{\k19}bu {\k39}ma{\k37}da {\k33}to{\k26}be{\k19}ru {\k66}yo
+Dialogue: 0,0:01:13.14,0:01:17.52,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k14}ga{\k20}ya{\k76}ku{\k19} {\k19}ki{\k19}zu{\k19}na {\k28}da{\k20}ki{\k25}shi{\k44}me
+Dialogue: 0,0:01:16.75,0:01:22.37,Shirabe L,,0,0,0,fx,{\k90\fad(300,200)}{\k34}shi{\k27}ra{\k19}be {\k28}u{\k29}ta{\k18}o{\k297}u
