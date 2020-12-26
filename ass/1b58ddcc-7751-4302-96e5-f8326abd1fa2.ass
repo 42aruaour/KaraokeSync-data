@@ -1,0 +1,96 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/Alka Lineace/Documents/Bakara/Mitsuboshi Colors - OP - Colors Power ni Omakasero!.mkv
+Video File: C:/Users/Alka Lineace/Documents/Bakara/Mitsuboshi Colors - OP - Colors Power ni Omakasero!.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.750000
+Scroll Position: 4
+Active Line: 5
+Video Position: 216
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Yui,Arial,53,&H003026F1,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,30,1
+Style: Satchan,Arial,53,&H0023D6F8,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,30,1
+Style: Kotoha,Arial,53,&H00E2C61E,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,30,1
+Style: Colors,Arial,53,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Yui,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.30,0:00:02.27,Yui,,0,960,0,karaoke,{\k74}dou {\k15}shi{\k16}ta{\k92}ra
+Comment: 0,0:00:01.49,0:00:02.98,Kotoha,,0,380,0,karaoke,{\k68}dou {\k22}shi{\k17}ta{\k42}ra
+Comment: 0,0:00:02.69,0:00:04.61,Satchan,,600,0,0,karaoke,{\k29}min{\k13}na {\k17}wo {\k20}ma{\k27}mo{\k30}re{\k14}ru {\k15}ka {\k27}na?
+Comment: 0,0:00:04.77,0:00:08.67,Colors,,0,0,95,karaoke,{\k32}chot{\k30}to {\k24}{\k36}mat{\k13}te! {\k31}sou{\k28}dan {\k36}su{\k28}ru {\k132}yo
+Comment: 0,0:00:08.98,0:00:14.26,Yui,,0,0,0,karaoke,{\k16}o{\k14}to{\k31}na {\k29}tte {\k73}i{\k18}so{\k14}ga{\k91}shii  {\k-75\c&HD0B723&}{\k74}i{\k15}so{\k15}ga{\k41}shii  {\k-26\c&H23D6F8&}{\k30}ma{\k18}ka{\k27}se{\k31}ra{\k30}re{\k31}na{\k31}i
+Comment: 0,0:00:14.38,0:00:17.02,Colors,,0,0,95,karaoke,{\k31}sou {\k29}da {\k29}{\k16}ko{\k15}no {\k15}ma{\k30}chi {\k28}no {\k33}ko{\k16}to {\k22}wa
+Comment: 0,0:00:17.08,0:00:19.84,Colors,,0,0,0,karaoke,{\k17}CO{\k13}LO{\k16}R{\k14}S {\k15}PO{\k15}WE{\k16}R {\k28}de {\k17}na{\k14}n{\k15}to{\k16}ka {\k14}shi{\k29}yo{\k37}u
+Comment: 0,0:00:28.48,0:00:33.29,Colors,,0,0,95,karaoke,{\k30}PIN {\k31}PIN {\k87}PIN{\k18}CH {\k45}wa {\k15}{\k14}to{\k16}tsu{\k15}ze{\k11}n {\k19}ni {\k89}ku{\k17}ru {\k74}yo
+Comment: 0,0:00:33.58,0:00:34.19,Yui,,0,800,0,karaoke,{\k16}da{\k16}ka{\k29}ra!
+Comment: 0,0:00:34.19,0:00:34.78,Kotoha,,0,300,0,karaoke,{\k14}da{\k16}ka{\k29}ra?
+Comment: 0,0:00:34.78,0:00:35.38,Satchan,,200,0,0,karaoke,{\k16}a{\k15}re {\k29}da!
+Comment: 0,0:00:35.38,0:00:35.97,Kotoha,,700,0,0,karaoke,{\k16}so{\k16}na{\k27}e?
+Comment: 0,0:00:36.28,0:00:38.61,Colors,,0,0,95,karaoke,{\k31}mai{\k29}ni{\k15}chi {\k15}yu{\k31}dan {\k14}de{\k30}ki{\k31}na{\k13}i {\k24}yo
+Comment: 0,0:00:38.67,0:00:42.86,Colors,,0,0,0,karaoke,{\k89}CHAN{\k18}CE {\k44}to {\k16}{\k15}ni{\k15}te{\k14}ru {\k16}yo {\k15}ne {\k74}doc{\k16}chi {\k16}da{\k71}ro
+Comment: 0,0:00:43.15,0:00:43.74,Yui,,0,900,95,karaoke,{\k17}na{\k17}ya{\k25}mu?
+Comment: 0,0:00:43.63,0:00:44.30,Kotoha,,0,300,95,karaoke,{\k16}na{\k16}ya{\k13}me{\k22}ba?
+Comment: 0,0:00:44.38,0:00:44.93,Satchan,,300,0,95,karaoke,{\k12}de{\k18}mo {\k25}sa!
+Comment: 0,0:00:44.97,0:00:45.58,Colors,,900,0,95,karaoke,{\k17}tsu{\k15}ma{\k29}ri?
+Comment: 0,0:00:45.86,0:00:48.27,Colors,,0,0,0,karaoke,{\k33}yat{\k24}te {\k36}mi{\k15}na{\k29}kya {\k31}wa{\k29}ka{\k15}n{\k29}nai
+Comment: 0,0:00:48.44,0:00:50.61,Yui,,0,0,95,karaoke,{\k15}ko{\k15}ko{\k15}ro {\k15}no {\k15}he{\k16}i{\k14}wa {\k18}to{\k12}o{\k16}i {\k66}to
+Comment: 0,0:00:50.83,0:00:52.57,Kotoha,,0,0,0,karaoke,{\k15}ko{\k16}ko{\k14}ro {\k16}no {\k14}ko{\k16}e {\k15}ga {\k13}ki{\k17}ko{\k14}e{\k24}ta
+Comment: 0,0:00:52.78,0:00:55.17,Satchan,,0,0,95,karaoke,{\k31}saa {\k29}kos{\k31}so{\k30}ri {\k30}to {\k29}dai{\k31}tan {\k28}ni
+Comment: 0,0:00:55.18,0:00:56.96,Colors,,0,0,0,karaoke,{\k31}gan{\k89}bac{\k16}cha{\k42}e!
+Comment: 0,0:00:57.87,0:00:59.83,Colors,,0,900,0,karaoke,{\k75}don{\k17}na {\k15}to{\k89}ki
+Comment: 0,0:00:59.08,0:01:00.58,Colors,,0,320,0,karaoke,{\k76}don{\k14}na {\k17}to{\k43}ki
+Comment: 0,0:01:00.27,0:01:02.23,Colors,,620,0,0,karaoke,{\k32}o{\k15}mo{\k15}shi{\k15}ro{\k29}ku {\k29}nac{\k17}cha{\k15}u {\k29}kai?
+Comment: 0,0:01:02.38,0:01:06.28,Colors,,0,0,0,karaoke,{\k31}mot{\k29}to {\k27}{\k33}mot{\k12}to {\k34}shi{\k29}ra{\k31}be{\k30}na{\k134}kya
+Comment: 0,0:01:06.58,0:01:09.44,Colors,,0,420,0,karaoke,{\k15}o{\k15}to{\k31}na {\k30}tte {\k74}gen{\k16}ki {\k15}ka {\k90}na
+Comment: 0,0:01:08.67,0:01:10.16,Colors,,420,0,0,karaoke,{\k77}gen{\k13}ki {\k16}ja {\k43}nai
+Comment: 0,0:01:09.87,0:01:11.82,Colors,,0,0,95,karaoke,{\k31}ko{\k15}do{\k30}mo {\k30}wa {\k30}gen{\k31}ki {\k28}da
+Comment: 0,0:01:11.98,0:01:14.62,Colors,,0,0,0,karaoke,{\k30}jaa {\k31}sa {\k29}{\k31}zen{\k14}bu {\k28}o{\k33}ma{\k28}ka{\k17}se{\k23}te?
+Comment: 0,0:01:14.68,0:01:17.50,Colors,,0,0,95,karaoke,{\k17}CO{\k14}LO{\k14}R{\k15}S {\k15}PO{\k15}WE{\k15}R {\k29}de {\k16}ka{\k15}tsu{\k16}ya{\k17}ku {\k11}shi{\k30}yo{\k43}u!
+Comment: 0,0:01:23.69,0:01:25.18,Colors,,0,0,0,karaoke,{\k16}mi{\k15}tsu{\k15}bo{\k43}shi {\k60}JUMP!
+Dialogue: 0,0:00:00.00,0:00:02.47,Yui,,0,960,0,fx,{\k30\fad(300,200)}{\k74}dou {\k15}shi{\k16}ta{\k92}ra
+Dialogue: 0,0:00:00.59,0:00:03.18,Kotoha,,0,380,0,fx,{\k90\fad(300,200)}{\k68}dou {\k22}shi{\k17}ta{\k42}ra
+Dialogue: 0,0:00:01.79,0:00:04.81,Satchan,,600,0,0,fx,{\k90\fad(300,200)}{\k29}min{\k13}na {\k17}wo {\k20}ma{\k27}mo{\k30}re{\k14}ru {\k15}ka {\k27}na?
+Dialogue: 0,0:00:03.87,0:00:08.87,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k32}chot{\k30}to {\k24}{\k36}mat{\k13}te! {\k31}sou{\k28}dan {\k36}su{\k28}ru {\k132}yo
+Dialogue: 0,0:00:08.08,0:00:14.46,Yui,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k14}to{\k31}na {\k29}tte {\k73}i{\k18}so{\k14}ga{\k91}shii  {\k-75\c&HD0B723&}{\k74}i{\k15}so{\k15}ga{\k41}shii  {\k-26\c&H23D6F8&}{\k30}ma{\k18}ka{\k27}se{\k31}ra{\k30}re{\k31}na{\k31}i
+Dialogue: 0,0:00:13.48,0:00:17.22,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k31}sou {\k29}da {\k29}{\k16}ko{\k15}no {\k15}ma{\k30}chi {\k28}no {\k33}ko{\k16}to {\k22}wa
+Dialogue: 0,0:00:16.18,0:00:20.04,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k17}CO{\k13}LO{\k16}R{\k14}S {\k15}PO{\k15}WE{\k16}R {\k28}de {\k17}na{\k14}n{\k15}to{\k16}ka {\k14}shi{\k29}yo{\k37}u
+Dialogue: 0,0:00:27.58,0:00:33.49,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k30}PIN {\k31}PIN {\k87}PIN{\k18}CH {\k45}wa {\k15}{\k14}to{\k16}tsu{\k15}ze{\k11}n {\k19}ni {\k89}ku{\k17}ru {\k74}yo
+Dialogue: 0,0:00:32.68,0:00:34.39,Yui,,0,800,0,fx,{\k90\fad(300,200)}{\k16}da{\k16}ka{\k29}ra!
+Dialogue: 0,0:00:33.29,0:00:34.98,Kotoha,,0,300,0,fx,{\k90\fad(300,200)}{\k14}da{\k16}ka{\k29}ra?
+Dialogue: 0,0:00:33.88,0:00:35.58,Satchan,,200,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k15}re {\k29}da!
+Dialogue: 0,0:00:34.48,0:00:36.17,Kotoha,,700,0,0,fx,{\k90\fad(300,200)}{\k16}so{\k16}na{\k27}e?
+Dialogue: 0,0:00:35.38,0:00:38.81,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k31}mai{\k29}ni{\k15}chi {\k15}yu{\k31}dan {\k14}de{\k30}ki{\k31}na{\k13}i {\k24}yo
+Dialogue: 0,0:00:37.77,0:00:43.06,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k89}CHAN{\k18}CE {\k44}to {\k16}{\k15}ni{\k15}te{\k14}ru {\k16}yo {\k15}ne {\k74}doc{\k16}chi {\k16}da{\k71}ro
+Dialogue: 0,0:00:42.25,0:00:43.94,Yui,,0,900,95,fx,{\k90\fad(300,200)}{\k17}na{\k17}ya{\k25}mu?
+Dialogue: 0,0:00:42.73,0:00:44.50,Kotoha,,0,300,95,fx,{\k90\fad(300,200)}{\k16}na{\k16}ya{\k13}me{\k22}ba?
+Dialogue: 0,0:00:43.48,0:00:45.13,Satchan,,300,0,95,fx,{\k90\fad(300,200)}{\k12}de{\k18}mo {\k25}sa!
+Dialogue: 0,0:00:44.07,0:00:45.78,Colors,,900,0,95,fx,{\k90\fad(300,200)}{\k17}tsu{\k15}ma{\k29}ri?
+Dialogue: 0,0:00:44.96,0:00:48.47,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k33}yat{\k24}te {\k36}mi{\k15}na{\k29}kya {\k31}wa{\k29}ka{\k15}n{\k29}nai
+Dialogue: 0,0:00:47.54,0:00:50.81,Yui,,0,0,95,fx,{\k90\fad(300,200)}{\k15}ko{\k15}ko{\k15}ro {\k15}no {\k15}he{\k16}i{\k14}wa {\k18}to{\k12}o{\k16}i {\k66}to
+Dialogue: 0,0:00:49.93,0:00:52.77,Kotoha,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k16}ko{\k14}ro {\k16}no {\k14}ko{\k16}e {\k15}ga {\k13}ki{\k17}ko{\k14}e{\k24}ta
+Dialogue: 0,0:00:51.88,0:00:55.37,Satchan,,0,0,95,fx,{\k90\fad(300,200)}{\k31}saa {\k29}kos{\k31}so{\k30}ri {\k30}to {\k29}dai{\k31}tan {\k28}ni
+Dialogue: 0,0:00:54.28,0:00:57.16,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k31}gan{\k89}bac{\k16}cha{\k42}e!
+Dialogue: 0,0:00:56.97,0:01:00.03,Colors,,0,900,0,fx,{\k90\fad(300,200)}{\k75}don{\k17}na {\k15}to{\k89}ki
+Dialogue: 0,0:00:58.18,0:01:00.78,Colors,,0,320,0,fx,{\k90\fad(300,200)}{\k76}don{\k14}na {\k17}to{\k43}ki
+Dialogue: 0,0:00:59.37,0:01:02.43,Colors,,620,0,0,fx,{\k90\fad(300,200)}{\k32}o{\k15}mo{\k15}shi{\k15}ro{\k29}ku {\k29}nac{\k17}cha{\k15}u {\k29}kai?
+Dialogue: 0,0:01:01.48,0:01:06.48,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k31}mot{\k29}to {\k27}{\k33}mot{\k12}to {\k34}shi{\k29}ra{\k31}be{\k30}na{\k134}kya
+Dialogue: 0,0:01:05.68,0:01:09.64,Colors,,0,420,0,fx,{\k90\fad(300,200)}{\k15}o{\k15}to{\k31}na {\k30}tte {\k74}gen{\k16}ki {\k15}ka {\k90}na
+Dialogue: 0,0:01:07.77,0:01:10.36,Colors,,420,0,0,fx,{\k90\fad(300,200)}{\k77}gen{\k13}ki {\k16}ja {\k43}nai
+Dialogue: 0,0:01:08.97,0:01:12.02,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k31}ko{\k15}do{\k30}mo {\k30}wa {\k30}gen{\k31}ki {\k28}da
+Dialogue: 0,0:01:11.08,0:01:14.82,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k30}jaa {\k31}sa {\k29}{\k31}zen{\k14}bu {\k28}o{\k33}ma{\k28}ka{\k17}se{\k23}te?
+Dialogue: 0,0:01:13.78,0:01:17.70,Colors,,0,0,95,fx,{\k90\fad(300,200)}{\k17}CO{\k14}LO{\k14}R{\k15}S {\k15}PO{\k15}WE{\k15}R {\k29}de {\k16}ka{\k15}tsu{\k16}ya{\k17}ku {\k11}shi{\k30}yo{\k43}u!
+Dialogue: 0,0:01:22.79,0:01:25.38,Colors,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k15}tsu{\k15}bo{\k43}shi {\k60}JUMP!
